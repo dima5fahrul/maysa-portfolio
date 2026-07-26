@@ -8,6 +8,9 @@ vi.mock('next/font/google', () => ({
   Roboto: () => ({ variable: '--font-nav', className: 'font-nav' }),
 }));
 
+// Nav (rendered by Header inside RootLayout) calls usePathname().
+vi.mock('next/navigation', () => ({ usePathname: () => '/' }));
+
 it('renders children inside the document body', () => {
   const { getByText } = render(
     <RootLayout><p>hello</p></RootLayout>
