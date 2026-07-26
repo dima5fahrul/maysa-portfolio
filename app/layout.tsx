@@ -1,3 +1,4 @@
+// @ts-ignore: CSS imports are handled by Next.js and do not require a declaration file in this setup
 import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins, Raleway, Roboto } from 'next/font/google';
@@ -11,8 +12,8 @@ const body = Raleway({ subsets: ['latin'], weight: ['300','400','500','600','700
 const nav = Roboto({ subsets: ['latin'], weight: ['400','500','700'], variable: '--font-nav' });
 
 export const metadata: Metadata = {
-  title: 'Kelly',
-  description: 'Kelly — personal CV / resume',
+  title: 'Maysa',
+  description: 'Maysa — personal CV / resume',
   icons: { icon: '/img/favicon.png', apple: '/img/apple-touch-icon.png' },
 };
 

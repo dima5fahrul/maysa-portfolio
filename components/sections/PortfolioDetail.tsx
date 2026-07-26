@@ -1,13 +1,11 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
 import { Section } from '@/components/ui/Section';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import type { PortfolioItem } from '@/lib/schema';
 
-export function PortfolioDetail({ item }: { item: PortfolioItem }) {
+export function PortfolioDetail({ item }: { item: PortfolioItem }) {  
   const { detail } = item;
   return (
     <Section id="portfolio-details">
