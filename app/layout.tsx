@@ -15,6 +15,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable} ${nav.variable}`}>
+      <head>
+        <link rel="stylesheet" href="/vendor/bootstrap-icons/bootstrap-icons.min.css" />
+      </head>
       <body className="font-sans text-body bg-white antialiased">{children}</body>
     </html>
   );
