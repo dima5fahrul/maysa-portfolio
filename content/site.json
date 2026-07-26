@@ -1,0 +1,18 @@
+{
+  "name": "Kelly",
+  "copyrightName": "Kelly",
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Resume", "href": "/resume" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Portfolio", "href": "/portfolio" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "social": [
+    { "platform": "Twitter", "icon": "twitter-x", "url": "#" },
+    { "platform": "Facebook", "icon": "facebook", "url": "#" },
+    { "platform": "Instagram", "icon": "instagram", "url": "#" },
+    { "platform": "LinkedIn", "icon": "linkedin", "url": "#" }
+  ]
+}

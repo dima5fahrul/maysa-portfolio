@@ -1,0 +1,8 @@
+{
+  "hero": {
+    "name": "Kelly Adams",
+    "tagline": "I'm a professional illustrator from San Francisco",
+    "backgroundImage": "/img/hero-bg.jpg",
+    "cta": { "label": "About Me", "href": "/about" }
+  }
+}

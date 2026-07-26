@@ -1,0 +1,57 @@
+{
+  "title": "About",
+  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "intro": {
+    "image": "/img/profile-img.jpg",
+    "heading": "UI/UX Designer & Web Developer.",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "facts": [
+      { "label": "Birthday", "value": "1 May 1995" },
+      { "label": "Website", "value": "www.example.com" },
+      { "label": "Phone", "value": "+123 456 7890" },
+      { "label": "City", "value": "New York, USA" },
+      { "label": "Age", "value": "30" },
+      { "label": "Degree", "value": "Master" },
+      { "label": "Email", "value": "email@example.com" },
+      { "label": "Freelance", "value": "Available" }
+    ],
+    "body": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque."
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+    "columns": [
+      { "skills": [
+        { "name": "HTML", "value": 100 },
+        { "name": "CSS", "value": 90 },
+        { "name": "JavaScript", "value": 75 }
+      ] },
+      { "skills": [
+        { "name": "PHP", "value": 80 },
+        { "name": "WordPress/CMS", "value": 90 },
+        { "name": "Photoshop", "value": 55 }
+      ] }
+    ]
+  },
+  "stats": {
+    "title": "Facts",
+    "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+    "items": [
+      { "label": "Clients", "value": 232 },
+      { "label": "Projects", "value": 521 },
+      { "label": "Hours Of Support", "value": 1453 },
+      { "label": "Workers", "value": 32 }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+    "items": [
+      { "name": "Saul Goodman", "role": "Ceo & Founder", "image": "/img/testimonials/testimonials-1.jpg", "rating": 5, "quote": "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper." },
+      { "name": "Sara Wilsson", "role": "Designer", "image": "/img/testimonials/testimonials-2.jpg", "rating": 5, "quote": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa." },
+      { "name": "Jena Karlis", "role": "Store Owner", "image": "/img/testimonials/testimonials-3.jpg", "rating": 5, "quote": "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim." },
+      { "name": "Matt Brandon", "role": "Freelancer", "image": "/img/testimonials/testimonials-4.jpg", "rating": 5, "quote": "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam." },
+      { "name": "John Larson", "role": "Entrepreneur", "image": "/img/testimonials/testimonials-5.jpg", "rating": 5, "quote": "Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid." }
+    ]
+  }
+}
