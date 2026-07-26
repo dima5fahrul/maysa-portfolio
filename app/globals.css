@@ -9,3 +9,10 @@
   --body: 39 39 39;          /* #272727 */
   --muted: 108 117 125;      /* #6c757d */
 }
+
+@layer base {
+  body { @apply text-[15px] leading-relaxed; }
+  h1, h2, h3, h4, h5, h6 { @apply font-heading text-heading; }
+  a { @apply text-accent no-underline transition-colors; }
+  a:hover { @apply text-accent/80; }
+}
