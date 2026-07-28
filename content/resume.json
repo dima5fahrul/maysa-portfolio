@@ -1,21 +1,187 @@
 {
   "title": "Resume",
-  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "subtitle": "Law graduate experienced in legal drafting, legal research, employment law, corporate compliance, contract review, project coordination, and stakeholder management.",
   "columns": [
-    { "groups": [
-      { "title": "Sumary", "items": [
-        { "heading": "Brandon Johnson", "summary": "Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.", "bullets": ["Portland par 127, Orlando, FL", "(123) 456-7891", "alice.barkley@example.com"] }
-      ] },
-      { "title": "Education", "items": [
-        { "heading": "Master of Fine Arts & Graphic Design", "period": "2015 - 2016", "place": "Rochester Institute of Technology, Rochester, NY", "summary": "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend" },
-        { "heading": "Bachelor of Fine Arts & Graphic Design", "period": "2010 - 2014", "place": "Rochester Institute of Technology, Rochester, NY", "summary": "Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila" }
-      ] }
-    ] },
-    { "groups": [
-      { "title": "Professional Experience", "items": [
-        { "heading": "Senior graphic design specialist", "period": "2019 - Present", "place": "Experion, New York, NY", "bullets": ["Lead in the design, development, and implementation of the graphic, layout, and production communication materials", "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.", "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design", "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"] },
-        { "heading": "Graphic design specialist", "period": "2017 - 2018", "place": "Stepping Stone Advertising, New York, NY", "bullets": ["Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).", "Managed up to 5 projects or tasks at a given time while under pressure", "Recommended and consulted with clients on the most appropriate graphic design", "Created 4+ design presentations and proposals a month for clients and account managers"] }
-      ] }
-    ] }
+    {
+      "groups": [
+        {
+          "title": "Summary",
+          "items": [
+            {
+              "heading": "Maisyaroh Umdzatul Khoirot",
+              "summary": "Law graduate with practical experience in legal drafting, legal research, employment law, corporate compliance, and contract review. Experienced in supporting litigation documents, regulatory compliance, and employment legal matters, complemented by strong project coordination and stakeholder management skills.",
+              "bullets": [
+                "087774096381",
+                "samaysa999@gmail.com",
+                "linkedin.com/in/maisyaroh-umdzatul-b0b388268"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education",
+          "items": [
+            {
+              "heading": "Bachelor of Law",
+              "period": "September 2022 - May 2026",
+              "place": "UPN Veteran Jawa Timur, Surabaya, Jawa Timur",
+              "summary": "Relevant coursework: Bankruptcy Law, Commercial Law, Banking Law, Civil Procedure Law, Alternative Dispute Resolution, Employment and Labor Law, and Contract Drafting (Legal Drafting)."
+            }
+          ]
+        },
+        {
+          "title": "Certifications",
+          "items": [
+            {
+              "heading": "Customer Relationship Management",
+              "period": "2024",
+              "place": "BNSP",
+              "summary": "Junior Service Quality Officer (JSQO), Registration No. JSQO.2090.0001163."
+            },
+            {
+              "heading": "Legal Drafting",
+              "period": "24 December 2024",
+              "place": "IODA Academy"
+            },
+            {
+              "heading": "TOEFL EPT",
+              "place": "UPN Veteran Jawa Timur",
+              "summary": "Score: 470."
+            }
+          ]
+        },
+        {
+          "title": "Skills & Languages",
+          "items": [
+            {
+              "heading": "Legal Skills",
+              "summary": "Legal Research, Legal Analysis, Regulatory & Policy Review, Legal Documentation, Legal Opinion, Civil & Criminal Law Analysis, and Contract Drafting."
+            },
+            {
+              "heading": "Human Resources Skills",
+              "summary": "HR Administration, Employee Relations, KPI Development, HR Data Management (spreadsheet-based), Employee Engagement Programs, and Performance Management Support."
+            },
+            {
+              "heading": "Languages",
+              "bullets": [
+                "Indonesian — Native",
+                "English — Professional Working Proficiency (TOEFL: 470)"
+              ]
+            },
+            {
+              "heading": "Achievements",
+              "bullets": [
+                "3rd Runner-up, Duta CBP Rupiah Nasional (2024)",
+                "1st Winner, Duta CBP Rupiah KPw Bank Indonesia Jawa Timur (2024)",
+                "Bank Indonesia Scholarship Awardee (2024-2026)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "title": "Professional Experience",
+          "items": [
+            {
+              "heading": "Staf Legal",
+              "period": "February 2025 - July 2025",
+              "place": "HHL Associates Attorney At Law",
+              "bullets": [
+                "Assisted in drafting and reviewing corporate and employment legal documents, including Company Regulations, PKWT, PKWTT, Collective Labor Agreements, MoU, NDA, Minutes of Meeting (MoM), legal demand letters (somasi), and civil litigation documents such as lawsuits, replies (replik), and rejoinders (duplik).",
+                "Conducted legal research and supported business legal compliance in corporate, employment, and environmental law matters, including NPWP registration and OSS licensing for business entities."
+              ]
+            },
+            {
+              "heading": "Manager Human Resources Employees and Relations",
+              "period": "April 2025 - August 2025",
+              "place": "PT. Kunci Hukum",
+              "bullets": [
+                "Led employee engagement and performance initiatives for 90 employees, implementing KPI monitoring and a 360° feedback system to strengthen productivity evaluation and leadership development.",
+                "Managed attendance and overtime tracking through spreadsheet-based systems and coordinated cross-department workflows; recognized as Best Division HR Employee Engagement & Relations and Manager of the Month (May 2025) with an excellent KPI score of 95%."
+              ]
+            },
+            {
+              "heading": "Staf Human Resources Employees and Relations",
+              "period": "January 2025 - April 2025",
+              "place": "PT. Kunci Hukum",
+              "bullets": [
+                "Developed employee engagement and people development initiatives, including a 360° feedback system, staff recognition programs, team bonding activities, and peer counseling.",
+                "Supported HR administration, Human Capital Management programs, HR reporting, and event documentation; recognized as Best Staff – Human Resources and contributed to the division receiving Best Performing Division."
+              ]
+            },
+            {
+              "heading": "Legal Research Intern",
+              "period": "June 2024 - July 2024",
+              "place": "Balai Pemasyarakatan Kelas IA Surabaya",
+              "bullets": [
+                "Conducted legal research on criminal justice and correctional regulations.",
+                "Assisted Community Counselors in preparing social inquiry reports (Laporan Penelitian Kemasyarakatan/Litmas) and supported case documentation and analysis related to inmate rehabilitation and supervision programs."
+              ]
+            },
+            {
+              "heading": "Director Project Management",
+              "period": "May 2023 - May 2024",
+              "place": "Forlawtous.id, Jakarta",
+              "bullets": [
+                "Led cross-functional coordination across Web Development, Content, and Event Organization divisions to deliver educational and human capital development programs, managing planning, timelines, budgeting, and execution.",
+                "Launched the official Forlawtous.id website and organized Class of Insight featuring Edi Suryanto (KPK), attracting 250 participants (125% of target)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Organizational Experience",
+          "items": [
+            {
+              "heading": "President",
+              "period": "November 2025 - Present",
+              "place": "GenBI UPN Veteran Jawa Timur Commissariat",
+              "bullets": [
+                "Led 50+ awardees across 20 community development projects, directing organizational strategy, team coordination, and program evaluation.",
+                "Spearheaded initiatives in education, environmental sustainability, capacity-building, English communication, and entrepreneurship training."
+              ]
+            },
+            {
+              "heading": "General Secretary",
+              "period": "May 2024 - July 2025",
+              "place": "GenBI UPN Veteran Jawa Timur Commissariat",
+              "bullets": [
+                "Managed secretariat and administrative coordination, including meetings, agendas, Minutes of Meeting, and daily operational activities.",
+                "Contributed to educational outreach and internal development programs, including serving as a speaker in GenBI Mengajar (GenBI Berlian)."
+              ]
+            },
+            {
+              "heading": "General Secretary",
+              "period": "September 2024 - September 2025",
+              "place": "GenBI East Java Regional Coordinator",
+              "bullets": [
+                "Managed organizational secretariat functions, cross-regional meetings, agendas, Minutes of Meeting, and action-item follow-up.",
+                "Improved administrative documentation and coordination systems and supported CSR initiatives including Beach Clean-Up and Fun Run programs."
+              ]
+            },
+            {
+              "heading": "Training & Development Division",
+              "period": "November 2022 - November 2024",
+              "place": "KPS Bela Negara, UPN Veteran Jawa Timur",
+              "bullets": [
+                "Designed and delivered member development programs focused on leadership, teamwork, and legal competencies.",
+                "Initiated the Internal Moot Court Competition at the Faculty of Law, supported KPS Mootcourt Camp, and facilitated Civil and Criminal Law study sessions."
+              ]
+            },
+            {
+              "heading": "Staf Event Manager",
+              "period": "September 2023 - January 2024",
+              "place": "Candu Hukum, Jakarta",
+              "bullets": [
+                "Organized internal and external events, including the Invest and Expand More About Yourself upgrading program with Cakap and the Know Yourself, Improve Your Skill: Let’s Speak public speaking webinar, which attracted 379 participants against a target of 250."
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

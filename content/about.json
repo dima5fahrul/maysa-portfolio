@@ -3,19 +3,28 @@
   "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
   "intro": {
     "image": "/img/profile-img.jpg",
-    "heading": "Legal Officer | Corporate Legal | HR Legal | Legal Complience",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "heading": "Maisyaroh Umdzatul Khoirot (a.k.a Maysa)",
+    "lead": "I'm Maysa, a Legal & HR professional based in Surabaya, Indonesia with 2 years of internship experience. Passionate about contract drafting, compliance, and employment relations.",
     "facts": [
-      { "label": "Birthday", "value": "1 May 1995" },
-      { "label": "Website", "value": "www.example.com" },
-      { "label": "Phone", "value": "+123 456 7890" },
-      { "label": "City", "value": "New York, USA" },
-      { "label": "Age", "value": "30" },
-      { "label": "Degree", "value": "Master" },
-      { "label": "Email", "value": "email@example.com" },
-      { "label": "Freelance", "value": "Available" }
+      { "label": "Degree", "value": "Bachelor of Law (S.H.)" },
+      { "label": "University", "value": "UPN “Veteran” Jawa Timur" },
+      { "label": "GPA", "value": "3.75/4.0" },
+      { "label": "Graduation Date", "value": "May 2026" },
+      { "label": "Location", "value": "Surabaya, Indonesia" },
+      {
+        "label": "Certifications",
+        "value": "TOEFL ITP (Score: 480)"
+      },
+      {
+        "label": "Interests",
+        "value": "Corporate Law, Employment Law, Compliance & Legal Drafting"
+      },
+      {
+        "label": "Languages",
+        "value": "Indonesian (Native), English (Professional Working Proficiency)"
+      }
     ],
-    "body": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque."
+    "body": "Results-driven Law graduate with practical with 2 years of internship experience in corporate legal, employment law, legal drafting, and HR operations. Combines strong legal acumen with analytical and communication skills to support compliance, organizational risk management, and employee relations."
   },
   "skills": {
     "title": "Skills",
