@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { Poppins, Raleway, Roboto } from 'next/font/google';
 import { getSite } from '@/lib/content';
 import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
+// import { Footer } from '@/components/layout/Footer';
 import { ScrollTop } from '@/components/layout/ScrollTop';
 
 const heading = Poppins({ subsets: ['latin'], weight: ['400','500','600','700'], variable: '--font-heading' });
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-sans text-body bg-white antialiased">
         <Header site={site} />
         <main>{children}</main>
-        <Footer site={site} />
+        {/* <Footer site={site} /> */}
         <ScrollTop />
       </body>
     </html>

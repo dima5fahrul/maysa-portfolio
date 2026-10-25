@@ -2,7 +2,7 @@
   "hero": {
     "name": "Maysa",
     "tagline": "Legal Officer | Corporate Legal | HR Legal | Legal Compliance",
-    "backgroundImage": "/img/hero-bg.jpg",
+    "backgroundImage": "/img/hero-bg.png",
     "cta": { "label": "About Me", "href": "/about" }
   }
 }
