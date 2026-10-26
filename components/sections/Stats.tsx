@@ -4,11 +4,14 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { useCountUp } from '@/lib/useCountUp';
 import type { AboutContent } from '@/lib/schema';
 
-function StatItem({ label, value }: { label: string; value: number }) {
+function StatItem({ label, value, suffix }: { label: string; value: number; suffix?: string }) {
   const n = useCountUp(value);
   return (
     <div className="text-center">
-      <span className="block text-4xl font-bold text-accent">{n}</span>
+      <span className="block text-4xl font-bold text-accent">
+        {n}
+        {suffix}
+      </span>
       <p className="mt-2 text-muted">{label}</p>
     </div>
   );

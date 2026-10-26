@@ -20,7 +20,7 @@ export const homeSchema = z.object({
 
 const skillSchema = z.object({ name: z.string(), value: z.number().min(0).max(100) });
 const skillGroupSchema = z.object({ skills: z.array(skillSchema) });
-const statSchema = z.object({ label: z.string(), value: z.number() });
+const statSchema = z.object({ label: z.string(), value: z.number(), suffix: z.string().optional() });
 const testimonialSchema = z.object({
   name: z.string(), role: z.string(), image: z.string(), quote: z.string(), rating: z.number().min(0).max(5),
 });

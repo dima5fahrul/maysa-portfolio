@@ -1,6 +1,6 @@
 {
   "title": "About",
-  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "subtitle": "Law graduate specialising in corporate legal, employment law and HR operations.",
   "intro": {
     "image": "/img/profile-img.jpg",
     "heading": "Maisyaroh Umdzatul Khoirot (a.k.a Maysa)",
@@ -28,32 +28,43 @@
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+    "subtitle": "Core competencies built across legal drafting, compliance, governance and people management.",
     "columns": [
       {
         "skills": [
-          { "name": "HTML", "value": 100 },
-          { "name": "CSS", "value": 90 },
-          { "name": "JavaScript", "value": 75 }
+          { "name": "Legal Drafting & Review", "value": 90 },
+          { "name": "Mortgage Risk & Compliance", "value": 85 },
+          { "name": "Corporate Governance & OSS", "value": 85 }
         ]
       },
       {
         "skills": [
-          { "name": "PHP", "value": 80 },
-          { "name": "WordPress/CMS", "value": 90 },
-          { "name": "Photoshop", "value": 55 }
+          { "name": "Project Management & Leadership", "value": 90 },
+          { "name": "Employment & Labor Relations", "value": 85 }
         ]
       }
     ]
   },
   "stats": {
     "title": "Facts",
-    "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+    "subtitle": "A snapshot of projects handled, teams led and targets delivered.",
     "items": [
-      { "label": "GPA in Bachelor of Law (S.H.) from UPN Veteran Jawa Timur", "value": 3.75 },
-      { "label": "Projects", "value": 521 },
-      { "label": "Hours Of Support", "value": 1453 },
-      { "label": "Workers", "value": 32 }
+      { "label": "HR, Legal and project CSR", "value": 30, "suffix": "+" },
+      {
+        "label": "Awardees Led as President of GenBI UPN Veteran",
+        "value": 50,
+        "suffix": "+"
+      },
+      {
+        "label": "Managing staff as HR Employee and Relations",
+        "value": 80,
+        "suffix": "+"
+      },
+      {
+        "label": "Target Achievement in Large-Scale Project Execution",
+        "value": 125,
+        "suffix": "%"
+      }
     ]
   },
   "testimonials": {
