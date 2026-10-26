@@ -24,9 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="stylesheet" href="/vendor/bootstrap-icons/bootstrap-icons.min.css" />
       </head>
-      <body className="font-sans text-body bg-white antialiased">
+      <body className="flex min-h-screen flex-col bg-page font-sans text-body antialiased">
         <Header site={site} />
-        <main>{children}</main>
+        <main className="flex flex-1 flex-col">{children}</main>
         {/* <Footer site={site} /> */}
         <ScrollTop />
       </body>

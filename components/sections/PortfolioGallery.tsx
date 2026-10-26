@@ -6,6 +6,7 @@ import 'yet-another-react-lightbox/styles.css';
 import { Section } from '@/components/ui/Section';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Icon } from '@/components/ui/Icon';
+import { Reveal } from '@/components/ui/Reveal';
 import type { PortfolioContent } from '@/lib/schema';
 
 export function PortfolioGallery({ data }: { data: PortfolioContent }) {
@@ -37,7 +38,7 @@ export function PortfolioGallery({ data }: { data: PortfolioContent }) {
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((item, idx) => (
-          <div key={item.slug} className="group relative overflow-hidden rounded">
+          <Reveal key={item.slug} delay={(idx % 3) * 100} className="group relative overflow-hidden rounded">
             <img src={item.image} alt={item.title} className="h-full w-full object-cover transition-transform group-hover:scale-105" />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-black/50 opacity-0 transition-opacity group-hover:opacity-100">
               <h4 className="text-lg font-semibold text-white">{item.title}</h4>
@@ -47,7 +48,7 @@ export function PortfolioGallery({ data }: { data: PortfolioContent }) {
                 <Link aria-label={`Details ${item.title}`} href={`/portfolio/${item.slug}`}><Icon name="link-45deg" className="text-xl" /></Link>
               </div>
             </div>
-          </div>
+          </Reveal>
         ))}
       </div>
 

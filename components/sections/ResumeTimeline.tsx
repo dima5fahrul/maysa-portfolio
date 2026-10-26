@@ -1,5 +1,6 @@
 import { Section } from '@/components/ui/Section';
 import { SectionTitle } from '@/components/ui/SectionTitle';
+import { Reveal } from '@/components/ui/Reveal';
 import type { ResumeContent } from '@/lib/schema';
 
 export function ResumeTimeline({ data }: { data: ResumeContent }) {
@@ -11,8 +12,8 @@ export function ResumeTimeline({ data }: { data: ResumeContent }) {
           <div key={ci}>
             {col.groups
               .filter((group) => group.title !== 'Organizational Experience')
-              .map((group) => (
-                <div key={group.title} className="mb-8">
+              .map((group, gi) => (
+                <Reveal key={group.title} delay={gi * 120} className="mb-8">
                   <h3 className="mb-4 text-xl font-semibold uppercase text-accent">{group.title}</h3>
                   {group.items.map((item, ii) => (
                     <div key={ii} className="mb-6 border-l-2 border-accent/30 pl-4">
@@ -27,14 +28,14 @@ export function ResumeTimeline({ data }: { data: ResumeContent }) {
                       )}
                     </div>
                   ))}
-                </div>
+                </Reveal>
               ))}
           </div>
         ))}
         {data.columns.flatMap((col) => col.groups)
         .filter((group) => group.title === 'Organizational Experience')
         .map((group) => (
-          <div key={group.title} className="mb-8 w-full md:col-span-2">
+          <Reveal key={group.title} className="mb-8 w-full md:col-span-2">
             <h3 className="mb-4 text-xl font-semibold uppercase text-accent">{group.title}</h3>
             {group.items.map((item, ii) => (
               <div key={ii} className="mb-6 border-l-2 border-accent/30 pl-4">
@@ -49,7 +50,7 @@ export function ResumeTimeline({ data }: { data: ResumeContent }) {
                 )}
               </div>
             ))}
-          </div>
+          </Reveal>
         ))}
       </div>
     </Section>

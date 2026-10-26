@@ -3,11 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --accent: 20 157 221; /* #149ddd */
-  --surface: 245 245 245; /* #f5f5f5 */
+  --accent: 168 84 47; /* #a8542f — terracotta from the hero swatch, darkened for AA contrast */
+  --page: 247 243 240; /* #f7f3f0 — warm tint of the hero taupe */
+  --surface: 236 228 222; /* #ece4de — deeper hero taupe tint, alternating sections */
   --heading: 5 5 5; /* near-black */
   --body: 39 39 39; /* #272727 */
   --muted: 108 117 125; /* #6c757d */
+  --header-h: 4.5rem; /* enforced on <header>; hero height math depends on it */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: var(--header-h);
 }
 
 @layer base {
@@ -20,5 +30,16 @@
   }
   a:hover {
     @apply text-accent/80;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }

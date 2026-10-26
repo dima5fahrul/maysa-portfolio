@@ -19,7 +19,7 @@ export function Nav({ items }: { items: SiteContent['nav'] }) {
       >
         <Icon name={open ? 'x' : 'list'} />
       </button>
-      <ul className={`${open ? 'flex' : 'hidden'} absolute left-0 top-full w-full flex-col gap-2 bg-white p-4 shadow md:static md:flex md:w-auto md:flex-row md:gap-6 md:bg-transparent md:p-0 md:shadow-none`}>
+      <ul className={`${open ? 'flex' : 'hidden'} absolute left-0 top-full w-full flex-col gap-2 bg-white p-4 shadow [--heading:5_5_5] md:static md:flex md:w-auto md:flex-row md:gap-6 md:bg-transparent md:p-0 md:shadow-none md:[--heading:inherit]`}>
         {items.map((item) => (
           <li key={item.href}>
             <Link

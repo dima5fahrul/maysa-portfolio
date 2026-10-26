@@ -1,13 +1,16 @@
 'use client';
 import { Section } from '@/components/ui/Section';
 import { SectionTitle } from '@/components/ui/SectionTitle';
+import { Reveal } from '@/components/ui/Reveal';
 import { useCountUp } from '@/lib/useCountUp';
+import { useInView } from '@/lib/useInView';
 import type { AboutContent } from '@/lib/schema';
 
 function StatItem({ label, value, suffix }: { label: string; value: number; suffix?: string }) {
-  const n = useCountUp(value);
+  const [ref, inView] = useInView<HTMLDivElement>();
+  const n = useCountUp(value, inView);
   return (
-    <div className="text-center">
+    <div ref={ref} className="text-center">
       <span className="block text-4xl font-bold text-accent">
         {n}
         {suffix}
@@ -22,7 +25,11 @@ export function Stats({ data }: { data: AboutContent['stats'] }) {
     <Section id="stats">
       <SectionTitle title={data.title} subtitle={data.subtitle} />
       <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-        {data.items.map((s) => <StatItem key={s.label} {...s} />)}
+        {data.items.map((s, i) => (
+          <Reveal key={s.label} delay={i * 120}>
+            <StatItem {...s} />
+          </Reveal>
+        ))}
       </div>
     </Section>
   );

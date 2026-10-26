@@ -6,12 +6,14 @@ import 'swiper/css/pagination';
 import { Section } from '@/components/ui/Section';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Icon } from '@/components/ui/Icon';
+import { Reveal } from '@/components/ui/Reveal';
 import type { AboutContent } from '@/lib/schema';
 
 export function Testimonials({ data }: { data: AboutContent['testimonials'] }) {
   return (
     <Section id="testimonials" className="bg-surface">
       <SectionTitle title={data.title} subtitle={data.subtitle} />
+      <Reveal>
       <Swiper
         modules={[Autoplay, Pagination]}
         loop
@@ -34,6 +36,7 @@ export function Testimonials({ data }: { data: AboutContent['testimonials'] }) {
           </SwiperSlide>
         ))}
       </Swiper>
+      </Reveal>
     </Section>
   );
 }
