@@ -19,6 +19,8 @@ const config: Config = {
         sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
         heading: ['var(--font-heading)', 'system-ui', 'sans-serif'],
         nav: ['var(--font-nav)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'cursive'],
+        serif: ['var(--font-serif)', 'Georgia', 'serif'],
       },
       keyframes: {
         'ken-burns': {

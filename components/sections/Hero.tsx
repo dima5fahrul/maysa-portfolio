@@ -13,11 +13,11 @@ export function Hero({ hero, scrollTo }: { hero: HomeContent['hero']; scrollTo?:
       <div className="absolute inset-0 animate-fade-in bg-[radial-gradient(ellipse_at_center,transparent_35%,rgba(0,0,0,0.55)_100%)]"></div>
 
       <div className="relative z-10 px-4 text-center text-white sm:px-6 lg:px-8">
-        <h1 className="animate-fade-up text-4xl font-semibold tracking-tight [animation-delay:200ms] md:text-6xl">
+        <h1 className="animate-fade-up font-display text-7xl font-normal leading-none tracking-wide [animation-delay:200ms] md:text-9xl">
           {hero.name}
         </h1>
         <div className="mx-auto mt-6 h-px w-24 origin-center animate-line-grow bg-accent [animation-delay:600ms]"></div>
-        <p className="mx-auto mt-6 max-w-xl animate-fade-up text-base text-white/85 [animation-delay:800ms]">
+        <p className="mx-auto mt-6 max-w-xl animate-fade-up font-serif text-xl font-light italic tracking-wide text-white/85 [animation-delay:800ms] md:text-2xl">
           {hero.tagline}
         </p>
         <div className="mt-10 animate-fade-up [animation-delay:1100ms]">

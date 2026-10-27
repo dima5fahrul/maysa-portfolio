@@ -1,7 +1,7 @@
 // @ts-ignore: CSS imports are handled by Next.js and do not require a declaration file in this setup
 import './globals.css';
 import type { Metadata } from 'next';
-import { Poppins, Raleway, Roboto } from 'next/font/google';
+import { Poppins, Raleway, Roboto, Italianno, Cormorant_Garamond } from 'next/font/google';
 import { getSite } from '@/lib/content';
 import { Header } from '@/components/layout/Header';
 // import { Footer } from '@/components/layout/Footer';
@@ -10,6 +10,8 @@ import { ScrollTop } from '@/components/layout/ScrollTop';
 const heading = Poppins({ subsets: ['latin'], weight: ['400','500','600','700'], variable: '--font-heading' });
 const body = Raleway({ subsets: ['latin'], weight: ['300','400','500','600','700'], variable: '--font-body' });
 const nav = Roboto({ subsets: ['latin'], weight: ['400','500','700'], variable: '--font-nav' });
+const display = Italianno({ subsets: ['latin'], weight: ['400'], variable: '--font-display' });
+const serif = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400'], style: ['normal','italic'], variable: '--font-serif' });
 
 export const metadata: Metadata = {
   title: 'Maysa',
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const site = getSite();
   return (
-    <html lang="en" className={`${heading.variable} ${body.variable} ${nav.variable}`}>
+    <html lang="en" className={`${heading.variable} ${body.variable} ${nav.variable} ${display.variable} ${serif.variable}`}>
       <head>
         <link rel="stylesheet" href="/vendor/bootstrap-icons/bootstrap-icons.min.css" />
       </head>
