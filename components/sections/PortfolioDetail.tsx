@@ -32,13 +32,21 @@ export function PortfolioDetail({ item, next }: { item: PortfolioItem; next?: Po
 
   return (
     <article>
-      <ProjectCover item={item} className="h-[50vh] min-h-[22rem] rounded-none">
-        <div className="flex h-full flex-col justify-end bg-gradient-to-t from-black/85 via-black/60 to-transparent px-4 pb-8 md:pb-12">
+      <ProjectCover item={item} variant="hero" className="h-[50vh] min-h-[22rem] rounded-none">
+        <div
+          className={`px-4 pb-8 md:pb-12 ${
+            item.cover ? 'flex h-full flex-col justify-end bg-gradient-to-t from-black/85 via-black/60 to-transparent' : ''
+          }`}
+        >
           <div className="mx-auto w-full max-w-3xl">
             <p className="mb-3 inline-block rounded-full bg-white/90 px-3 py-1 text-[11px] font-bold uppercase leading-none tracking-widest text-accent">
               {item.field}
             </p>
-            <h1 className="font-heading text-2xl font-semibold leading-tight text-white sm:text-3xl md:text-4xl">
+            <h1
+              className={`font-heading text-2xl font-semibold leading-tight sm:text-3xl md:text-4xl ${
+                item.cover ? 'text-white' : 'text-heading'
+              }`}
+            >
               {item.title}
             </h1>
           </div>

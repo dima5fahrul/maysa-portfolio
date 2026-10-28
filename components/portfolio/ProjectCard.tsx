@@ -2,14 +2,22 @@ import Link from 'next/link';
 import type { PortfolioItem } from '@/lib/schema';
 import { ProjectCover } from './ProjectCover';
 
-export function ProjectCard({ item, tag }: { item: PortfolioItem; tag: string }) {
+export function ProjectCard({
+  item,
+  tag,
+  tone,
+}: {
+  item: PortfolioItem;
+  tag: string;
+  tone?: 'surface' | 'page';
+}) {
   const metric = item.metrics[0];
   return (
     <Link
       href={`/portfolio/${item.slug}`}
       className="group flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg"
     >
-      <ProjectCover item={item} tag={tag} className="h-44 shrink-0" />
+      <ProjectCover item={item} tag={tag} tone={tone} className="h-44 shrink-0" />
       <div className="flex flex-1 flex-col gap-2 p-5">
         <h3 className="line-clamp-2 font-heading text-lg font-semibold leading-snug text-heading">{item.title}</h3>
         <p className="text-sm text-muted">{`${item.organization} · ${item.period}`}</p>

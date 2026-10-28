@@ -21,10 +21,10 @@ export function SelectedWork({
   return (
     <Section id="selected-work" className="bg-surface">
       <SectionTitle title={title} subtitle={subtitle} />
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="flex flex-wrap justify-center gap-6">
         {items.map((item, idx) => (
-          <Reveal key={item.slug} delay={idx * 100} className="h-full">
-            <ProjectCard item={item} tag={categoryTag(filters, item.category)} />
+          <Reveal key={item.slug} delay={idx * 100} className="w-full md:w-[calc((100%-3rem)/3)]">
+            <ProjectCard item={item} tag={categoryTag(filters, item.category)} tone="page" />
           </Reveal>
         ))}
       </div>
