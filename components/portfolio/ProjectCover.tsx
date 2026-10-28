@@ -27,7 +27,7 @@ export function ProjectCover({
           {tag}
         </span>
       )}
-      {children}
+      {children && <div className="absolute inset-0 z-10">{children}</div>}
     </div>
   );
 }
