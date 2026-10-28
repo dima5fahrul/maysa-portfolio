@@ -22,3 +22,6 @@ export const getContact = () => contactSchema.parse(contact);
 
 export const getPortfolioItem = (slug: string): PortfolioItem | undefined =>
   getPortfolio().items.find((i) => i.slug === slug);
+
+export const getSelectedItems = (): PortfolioItem[] =>
+  getPortfolio().items.filter((i) => i.selected);

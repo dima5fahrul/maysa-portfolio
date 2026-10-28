@@ -1,21 +1,206 @@
 {
   "title": "Portfolio",
-  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "subtitle": "Selected legal, HR and organisational projects, each told as a short case study: the situation, my role, what I did and what it delivered.",
   "filters": [
     { "key": "all", "label": "All" },
-    { "key": "app", "label": "App" },
-    { "key": "product", "label": "Card" },
-    { "key": "branding", "label": "Web" }
+    { "key": "legal", "label": "Legal" },
+    { "key": "hr", "label": "HR" },
+    { "key": "projects", "label": "Projects & Organizations", "tag": "Projects" }
   ],
   "items": [
-    { "slug": "app-1", "title": "App 1", "category": "app", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-1.jpg", "detail": { "info": { "category": "Web design", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.", "gallery": ["/img/portfolio/app-1.jpg", "/img/portfolio/product-1.jpg", "/img/portfolio/branding-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "product-1", "title": "Product 1", "category": "product", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-2.jpg", "detail": { "info": { "category": "Product design", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos.", "gallery": ["/img/portfolio/product-1.jpg", "/img/portfolio/app-1.jpg", "/img/portfolio/branding-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "branding-1", "title": "Branding 1", "category": "branding", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-3.jpg", "detail": { "info": { "category": "Branding", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos.", "gallery": ["/img/portfolio/branding-1.jpg", "/img/portfolio/app-1.jpg", "/img/portfolio/product-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "app-2", "title": "App 2", "category": "app", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-4.jpg", "detail": { "info": { "category": "Web design", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.", "gallery": ["/img/portfolio/app-1.jpg", "/img/portfolio/product-1.jpg", "/img/portfolio/branding-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "product-2", "title": "Product 2", "category": "product", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-5.jpg", "detail": { "info": { "category": "Product design", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.", "gallery": ["/img/portfolio/product-1.jpg", "/img/portfolio/app-1.jpg", "/img/portfolio/branding-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "branding-2", "title": "Branding 2", "category": "branding", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-6.jpg", "detail": { "info": { "category": "Branding", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.", "gallery": ["/img/portfolio/branding-1.jpg", "/img/portfolio/app-1.jpg", "/img/portfolio/product-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "app-3", "title": "App 3", "category": "app", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-7.jpg", "detail": { "info": { "category": "Web design", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.", "gallery": ["/img/portfolio/app-1.jpg", "/img/portfolio/product-1.jpg", "/img/portfolio/branding-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "product-3", "title": "Product 3", "category": "product", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-8.jpg", "detail": { "info": { "category": "Product design", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.", "gallery": ["/img/portfolio/product-1.jpg", "/img/portfolio/app-1.jpg", "/img/portfolio/branding-1.jpg", "/img/portfolio/books-1.jpg"] } },
-    { "slug": "branding-3", "title": "Branding 3", "category": "branding", "description": "Lorem ipsum, dolor sit", "image": "/img/masonry-portfolio/masonry-portfolio-9.jpg", "detail": { "info": { "category": "Branding", "client": "ASU Company", "date": "01 March, 2020", "url": "https://www.example.com" }, "title": "Exercitationem repudiandae officiis neque suscipit", "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.", "gallery": ["/img/portfolio/branding-1.jpg", "/img/portfolio/app-1.jpg", "/img/portfolio/product-1.jpg", "/img/portfolio/books-1.jpg"] } }
+    {
+      "slug": "class-of-insight",
+      "title": "Class of Insight: a National Webinar with a KPK Speaker",
+      "category": "projects",
+      "field": "Event · Project Management",
+      "role": "Director Project Management",
+      "organization": "Forlawtous.id, Jakarta",
+      "period": "2023–2024",
+      "team": "Web Development, Content and Event Organization divisions",
+      "summary": "Planned and delivered Class of Insight featuring Edi Suryanto (KPK), coordinating three divisions to reach 125% of the participant target.",
+      "cover": "/img/masonry-portfolio/masonry-portfolio-1.jpg",
+      "metrics": [
+        { "value": "250", "label": "Participants attended" },
+        { "value": "125%", "label": "Of the registration target" },
+        { "value": "3", "label": "Divisions coordinated" }
+      ],
+      "featured": true,
+      "selected": true,
+      "situation": [
+        "Forlawtous.id runs educational and human capital development programs for law students and young professionals. Its flagship events depended on three separate divisions (Web Development, Content and Event Organization) that each worked to their own calendar.",
+        "Class of Insight was planned as the community's most visible event to date, with a speaker from the Corruption Eradication Commission (KPK). Registration, promotion and the programme itself all had to line up inside a fixed timeline and budget."
+      ],
+      "task": "As Director Project Management, I was responsible for the plan end to end: timeline, budget, cross-division coordination and the final run of the event.",
+      "quote": "A good event is mostly decided before the day itself. Clear owners and honest deadlines did more for us than any last-minute push.",
+      "steps": [
+        { "title": "Scope and timeline", "description": "Set the event goals, a registration target and a working timeline, then agreed milestones with each division lead." },
+        { "title": "Budget and speaker", "description": "Prepared the budget, confirmed the speaker and aligned the session topic with the audience we wanted to reach." },
+        { "title": "Weekly coordination", "description": "Ran a short weekly check-in across Web, Content and Event teams so registration pages, promotion and logistics stayed in step." },
+        { "title": "Event day and review", "description": "Directed the run of show on the day and closed with a written evaluation for the next committee." }
+      ],
+      "resultNotes": [
+        "Registrations passed the target, closing at 125% of what the committee had planned for.",
+        "The three-division workflow was documented and reused for later programmes."
+      ],
+      "gallery": [
+        "/img/portfolio/app-1.jpg",
+        "/img/portfolio/product-1.jpg",
+        "/img/portfolio/branding-1.jpg"
+      ]
+    },
+    {
+      "slug": "hr-engagement-kpi",
+      "title": "Employee Engagement and KPI Monitoring for 90 People",
+      "category": "hr",
+      "field": "Employee Engagement · HR Operations",
+      "role": "Manager, Human Resources Employees and Relations",
+      "organization": "PT. Kunci Hukum",
+      "period": "January–August 2025",
+      "team": "HR Employees and Relations division",
+      "summary": "Introduced KPI monitoring and a 360° feedback system for 90 employees, and was named Manager of the Month (May 2025) with a 95% KPI score.",
+      "cover": "/img/masonry-portfolio/masonry-portfolio-4.jpg",
+      "metrics": [
+        { "value": "90", "label": "Employees covered" },
+        { "value": "95%", "label": "KPI score, May 2025" }
+      ],
+      "selected": true,
+      "situation": [
+        "PT. Kunci Hukum was growing quickly, and performance was still judged informally. Managers had no shared view of productivity, and feedback mostly travelled in one direction, from the top down.",
+        "Attendance, overtime and engagement activities were tracked in separate files, which made it hard to see patterns or to recognise strong contributors consistently."
+      ],
+      "task": "I started as HR staff and became Manager of the HR Employees and Relations division. I was responsible for building a fairer way to measure performance and for keeping engagement programmes running for 90 employees.",
+      "steps": [
+        { "title": "Consolidate the data", "description": "Moved attendance and overtime tracking into one spreadsheet-based system with consistent fields and a monthly review." },
+        { "title": "Introduce KPIs", "description": "Worked with team leads to define KPIs per role and set up regular monitoring against them." },
+        { "title": "360° feedback", "description": "Designed and rolled out a 360° feedback process so evaluation also reflected peers and direct reports." },
+        { "title": "Engagement programmes", "description": "Ran staff recognition, team bonding and peer counselling activities, and documented each event for the HR report." }
+      ],
+      "resultNotes": [
+        "Recognised as Best Staff, Human Resources, and later as Manager of the Month (May 2025).",
+        "The division was named Best Performing Division and Best Division for HR Employee Engagement and Relations."
+      ],
+      "gallery": [
+        "/img/portfolio/books-1.jpg",
+        "/img/portfolio/product-1.jpg"
+      ]
+    },
+    {
+      "slug": "company-regulation-pkwt",
+      "title": "Company Regulations, PKWT and Employment Agreements",
+      "category": "legal",
+      "field": "Employment Law · Legal Drafting",
+      "role": "Legal Staff",
+      "organization": "HHL Associates Attorney At Law",
+      "period": "February–July 2025",
+      "summary": "Drafted and reviewed company regulations, fixed-term (PKWT) and permanent (PKWTT) employment agreements and related corporate documents for client businesses.",
+      "metrics": [
+        { "value": "10+", "label": "Document types drafted or reviewed" }
+      ],
+      "selected": true,
+      "situation": [
+        "Client companies needed employment documents that matched current labour regulation. Several relied on old templates that no longer fitted their workforce or their working arrangements.",
+        "At the same time, new businesses needed their registrations and licences in order, including NPWP registration and OSS licensing, before they could start hiring."
+      ],
+      "task": "As Legal Staff, I assisted the attorneys with drafting and reviewing employment and corporate documents, and with the legal research behind them.",
+      "steps": [
+        { "title": "Research the rules", "description": "Checked the relevant labour, corporate and environmental regulations before each draft, and noted the clauses that mattered most to the client." },
+        { "title": "Draft the documents", "description": "Prepared company regulations, PKWT and PKWTT agreements, collective labour agreements, MoUs and NDAs from the client's facts." },
+        { "title": "Review and revise", "description": "Reviewed drafts against checklists, tracked comments from supervising attorneys and delivered clean final versions." }
+      ],
+      "resultNotes": [
+        "Clients received documents consistent with current employment regulation.",
+        "Supported several businesses through NPWP registration and OSS licensing."
+      ]
+    },
+    {
+      "slug": "genbi-community-projects",
+      "title": "Leading 50+ Bank Indonesia Scholarship Awardees Across 20 Community Development Projects at GenBI UPN Veteran Jawa Timur",
+      "category": "projects",
+      "field": "Leadership · Community Development",
+      "role": "President",
+      "organization": "GenBI UPN Veteran Jawa Timur Commissariat",
+      "period": "November 2025–Present",
+      "team": "50+ awardees",
+      "summary": "Directing strategy, team coordination and programme evaluation across education, environment, English communication and entrepreneurship projects.",
+      "cover": "/img/masonry-portfolio/masonry-portfolio-7.jpg",
+      "metrics": [
+        { "value": "50+", "label": "Awardees led" },
+        { "value": "20", "label": "Community development projects" }
+      ],
+      "situation": [
+        "GenBI is the Bank Indonesia scholarship community, and each commissariat is expected to give back through community programmes. At UPN Veteran Jawa Timur, projects were running in parallel with little shared planning.",
+        "With a large membership and a short leadership term, the commissariat needed a clear strategy, an evaluation habit and a way to keep every project owner accountable."
+      ],
+      "task": "As President, I set the organisation's direction and was accountable for coordination across all teams and for evaluating the programmes they ran.",
+      "steps": [
+        { "title": "Set the strategy", "description": "Defined priority themes for the term: education, environmental sustainability, capacity-building, English communication and entrepreneurship." },
+        { "title": "Organise the teams", "description": "Assigned project leads, agreed on timelines and set a regular rhythm of progress meetings." },
+        { "title": "Evaluate and improve", "description": "Introduced a short evaluation after each programme so lessons carried into the next one." }
+      ],
+      "resultNotes": [
+        "Twenty community development projects planned and tracked under one strategy.",
+        "Programme evaluation became a standing step rather than an afterthought."
+      ]
+    },
+    {
+      "slug": "litmas-legal-research",
+      "title": "Legal Research and Social Inquiry Reports (Litmas)",
+      "category": "legal",
+      "field": "Legal Research · Criminal Justice",
+      "role": "Legal Research Intern",
+      "organization": "Balai Pemasyarakatan Kelas IA Surabaya",
+      "period": "June–July 2024",
+      "summary": "Researched correctional and criminal justice regulations and supported Community Counselors in preparing social inquiry reports.",
+      "metrics": [
+        { "value": "10+", "label": "Case files documented and analysed" }
+      ],
+      "situation": [
+        "Community Counselors at the correctional centre prepare social inquiry reports (Laporan Penelitian Kemasyarakatan, or Litmas) that inform decisions on inmate rehabilitation and supervision programmes.",
+        "Each report depends on accurate case documentation and on the correct reading of correctional and criminal justice regulations, which takes time that counselors rarely have."
+      ],
+      "task": "As Legal Research Intern, I was responsible for the regulatory research behind the reports and for helping counselors keep case documentation complete.",
+      "steps": [
+        { "title": "Map the regulations", "description": "Collected the correctional and criminal justice regulations that applied to the cases in front of the counselors." },
+        { "title": "Support the Litmas", "description": "Assisted counselors in preparing social inquiry reports, organising facts and checking references." },
+        { "title": "Document and analyse", "description": "Wrote up case documentation and short analyses related to rehabilitation and supervision programmes." }
+      ],
+      "resultNotes": [
+        "Counselors had a ready reference of applicable regulations for their reports.",
+        "Case files were more consistent and easier to review."
+      ]
+    },
+    {
+      "slug": "forlawtous-website",
+      "title": "Launching the Official Forlawtous.id Website",
+      "category": "projects",
+      "field": "Web · Project Management",
+      "role": "Director Project Management",
+      "organization": "Forlawtous.id, Jakarta",
+      "period": "2023–2024",
+      "summary": "Led the planning and launch of the organisation's official website, working with the Web Development and Content divisions.",
+      "cover": "/img/masonry-portfolio/masonry-portfolio-2.jpg",
+      "metrics": [
+        { "value": "1", "label": "Official website launched" },
+        { "value": "3", "label": "Divisions aligned on one plan" }
+      ],
+      "situation": [
+        "Forlawtous.id had been publishing its educational content and event information through social media alone. Visitors had no single place to find the programmes, the team or the articles.",
+        "A website would need developers, writers and the events team to work from the same plan, and the launch had to be ready before the next programme cycle."
+      ],
+      "task": "As Director Project Management, I owned the delivery plan, the schedule and the coordination between the divisions that would build and fill the site.",
+      "steps": [
+        { "title": "Define the scope", "description": "Agreed on the pages, features and priorities for the first release with the Web Development and Content leads." },
+        { "title": "Plan the build", "description": "Broke the work into milestones with owners and dates, and tracked the budget alongside them." },
+        { "title": "Prepare the content", "description": "Coordinated writers and the events team so every page had approved copy before the site went live." },
+        { "title": "Launch and hand over", "description": "Went live on schedule and documented how the site would be maintained by the next committee." }
+      ],
+      "resultNotes": [
+        "The organisation now has an official home for its programmes and articles.",
+        "Maintenance steps were handed over in writing."
+      ],
+      "gallery": [
+        "/img/portfolio/branding-1.jpg"
+      ]
+    }
   ]
 }

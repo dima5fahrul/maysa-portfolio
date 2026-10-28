@@ -21,9 +21,6 @@ export const homeSchema = z.object({
 const skillSchema = z.object({ name: z.string(), value: z.number().min(0).max(100) });
 const skillGroupSchema = z.object({ skills: z.array(skillSchema) });
 const statSchema = z.object({ label: z.string(), value: z.number(), suffix: z.string().optional() });
-const testimonialSchema = z.object({
-  name: z.string(), role: z.string(), image: z.string(), quote: z.string(), rating: z.number().min(0).max(5),
-});
 
 export const aboutSchema = z.object({
   title: z.string(),
@@ -37,7 +34,7 @@ export const aboutSchema = z.object({
   }),
   skills: z.object({ title: z.string(), subtitle: z.string(), columns: z.array(skillGroupSchema) }),
   stats: z.object({ title: z.string(), subtitle: z.string(), items: z.array(statSchema) }),
-  testimonials: z.object({ title: z.string(), subtitle: z.string(), items: z.array(testimonialSchema) }),
+  selectedWork: z.object({ title: z.string(), subtitle: z.string() }),
 });
 
 const resumeItemSchema = z.object({
@@ -61,24 +58,49 @@ export const servicesSchema = z.object({
   title: z.string(), subtitle: z.string(), items: z.array(serviceSchema),
 });
 
+const metricSchema = z.object({ value: z.string(), label: z.string() });
+const caseStepSchema = z.object({ title: z.string(), description: z.string() });
+const portfolioFilterSchema = z.object({ key: z.string(), label: z.string(), tag: z.string().optional() });
+
 const portfolioItemSchema = z.object({
   slug: z.string(),
   title: z.string(),
   category: z.string(),
-  description: z.string(),
-  image: z.string(),
-  detail: z.object({
-    info: z.object({ category: z.string(), client: z.string(), date: z.string(), url: z.string() }),
-    title: z.string(),
-    description: z.string(),
-    gallery: z.array(z.string()).min(1),
-  }),
+  field: z.string(),
+  role: z.string(),
+  organization: z.string(),
+  period: z.string(),
+  team: z.string().optional(),
+  summary: z.string(),
+  cover: z.string().optional(),
+  metrics: z.array(metricSchema).min(1),
+  featured: z.boolean().optional(),
+  selected: z.boolean().optional(),
+  situation: z.array(z.string()).min(1),
+  task: z.string(),
+  quote: z.string().optional(),
+  steps: z.array(caseStepSchema).min(1),
+  resultNotes: z.array(z.string()).optional(),
+  gallery: z.array(z.string()).optional(),
 });
 export const portfolioSchema = z.object({
   title: z.string(),
   subtitle: z.string(),
-  filters: z.array(z.object({ key: z.string(), label: z.string() })),
+  filters: z.array(portfolioFilterSchema).min(1),
   items: z.array(portfolioItemSchema),
+}).superRefine((data, ctx) => {
+  const issue = (message: string) => ctx.addIssue({ code: z.ZodIssueCode.custom, message });
+  const featured = data.items.filter((i) => i.featured).length;
+  if (featured > 1) issue(`At most one portfolio item can be featured (found ${featured}).`);
+  const selected = data.items.filter((i) => i.selected).length;
+  if (selected > 3) issue(`At most three portfolio items can be selected (found ${selected}).`);
+  const keys = new Set(data.filters.map((f) => f.key).filter((k) => k !== 'all'));
+  const slugs = new Set<string>();
+  for (const { slug, category } of data.items) {
+    if (!keys.has(category)) issue(`Unknown category "${category}" on item "${slug}".`);
+    if (slugs.has(slug)) issue(`Duplicate slug "${slug}".`);
+    slugs.add(slug);
+  }
 });
 
 export const contactSchema = z.object({
@@ -97,7 +119,9 @@ export type ServicesContent = z.infer<typeof servicesSchema>;
 export type PortfolioContent = z.infer<typeof portfolioSchema>;
 export type ContactContent = z.infer<typeof contactSchema>;
 export type PortfolioItem = z.infer<typeof portfolioItemSchema>;
-export type Testimonial = z.infer<typeof testimonialSchema>;
+export type Metric = z.infer<typeof metricSchema>;
+export type CaseStep = z.infer<typeof caseStepSchema>;
+export type PortfolioFilter = z.infer<typeof portfolioFilterSchema>;
 export type SkillGroup = z.infer<typeof skillGroupSchema>;
 export type Service = z.infer<typeof serviceSchema>;
 export type ResumeColumn = z.infer<typeof resumeColumnSchema>;
