@@ -3,6 +3,60 @@
     "name": "Maysa",
     "tagline": "Legal Officer | Corporate Legal | HR Legal | Legal Compliance",
     "backgroundImage": "/img/hero-bg.png",
-    "cta": { "label": "About Me", "href": "/about" }
+    "cta": {
+      "label": "View Portfolio",
+      "href": "/portfolio"
+    }
+  },
+  "intro": {
+    "image": "/img/profile-img.jpeg",
+    "heading": "Hi, I'm Maysa.",
+    "text": "A Law graduate from UPN “Veteran” Jawa Timur with hands-on experience in legal drafting, employment law and HR operations. I've drafted legal documents at a law firm, managed employee relations for 90 staff, and led a student organisation of 50+ scholarship awardees.",
+    "link": {
+      "label": "More about me",
+      "href": "/about"
+    }
+  },
+  "expertise": {
+    "title": "Expertise",
+    "subtitle": "Areas where I can contribute to a legal or HR team.",
+    "link": {
+      "label": "See all expertise",
+      "href": "/services"
+    }
+  },
+  "stats": {
+    "title": "Facts",
+    "subtitle": "A snapshot of projects handled, teams led and targets delivered.",
+    "items": [
+      {
+        "label": "HR, Legal and project CSR",
+        "value": 30,
+        "suffix": "+"
+      },
+      {
+        "label": "Awardees Led as President of GenBI UPN Veteran",
+        "value": 50,
+        "suffix": "+"
+      },
+      {
+        "label": "Managing staff as HR Employee and Relations",
+        "value": 90,
+        "suffix": "+"
+      },
+      {
+        "label": "Target Achievement in Large-Scale Project Execution",
+        "value": 125,
+        "suffix": "%"
+      }
+    ]
+  },
+  "contactCta": {
+    "title": "Open to Legal & HR roles",
+    "text": "Looking for someone to support your legal or HR team? I'd be glad to talk.",
+    "link": {
+      "label": "Get in touch",
+      "href": "/contact"
+    }
   }
 }

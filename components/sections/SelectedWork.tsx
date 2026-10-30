@@ -11,20 +11,24 @@ export function SelectedWork({
   subtitle,
   items,
   filters,
+  background = 'surface',
 }: {
   title: string;
   subtitle: string;
   items: PortfolioItem[];
   filters: PortfolioFilter[];
+  background?: 'surface' | 'page';
 }) {
   if (items.length === 0) return null;
+  // Cards take the opposite tone so a no-photo cover never blends into the section.
+  const cardTone = background === 'surface' ? 'page' : 'surface';
   return (
-    <Section id="selected-work" className="bg-surface">
+    <Section id="selected-work" className={background === 'surface' ? 'bg-surface' : ''}>
       <SectionTitle title={title} subtitle={subtitle} />
       <div className="flex flex-wrap justify-center gap-6">
         {items.map((item, idx) => (
           <Reveal key={item.slug} delay={idx * 100} className="w-full md:w-[calc((100%-3rem)/3)]">
-            <ProjectCard item={item} tag={categoryTag(filters, item.category)} tone="page" />
+            <ProjectCard item={item} tag={categoryTag(filters, item.category)} tone={cardTone} />
           </Reveal>
         ))}
       </div>

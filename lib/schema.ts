@@ -9,18 +9,24 @@ export const siteSchema = z.object({
   copyrightName: z.string(),
 });
 
+const linkSchema = z.object({ label: z.string(), href: z.string() });
+const statSchema = z.object({ label: z.string(), value: z.number(), suffix: z.string().optional() });
+
 export const homeSchema = z.object({
   hero: z.object({
     name: z.string(),
     tagline: z.string(),
     backgroundImage: z.string(),
-    cta: z.object({ label: z.string(), href: z.string() }),
+    cta: linkSchema,
   }),
+  intro: z.object({ image: z.string(), heading: z.string(), text: z.string(), link: linkSchema }),
+  expertise: z.object({ title: z.string(), subtitle: z.string(), link: linkSchema }),
+  stats: z.object({ title: z.string(), subtitle: z.string(), items: z.array(statSchema) }),
+  contactCta: z.object({ title: z.string(), text: z.string(), link: linkSchema }),
 });
 
 const skillSchema = z.object({ name: z.string(), value: z.number().min(0).max(100) });
 const skillGroupSchema = z.object({ skills: z.array(skillSchema) });
-const statSchema = z.object({ label: z.string(), value: z.number(), suffix: z.string().optional() });
 
 export const aboutSchema = z.object({
   title: z.string(),
@@ -33,7 +39,6 @@ export const aboutSchema = z.object({
     body: z.string(),
   }),
   skills: z.object({ title: z.string(), subtitle: z.string(), columns: z.array(skillGroupSchema) }),
-  stats: z.object({ title: z.string(), subtitle: z.string(), items: z.array(statSchema) }),
   selectedWork: z.object({ title: z.string(), subtitle: z.string() }),
 });
 

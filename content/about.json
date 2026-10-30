@@ -6,11 +6,26 @@
     "heading": "Maisyaroh Umdzatul Khoirot (a.k.a Maysa)",
     "lead": "I'm Maysa, a Legal & HR professional based in Surabaya, Indonesia with 2 years of internship experience. Passionate about contract drafting, compliance, and employment relations.",
     "facts": [
-      { "label": "Degree", "value": "Bachelor of Law (S.H.)" },
-      { "label": "University", "value": "UPN “Veteran” Jawa Timur" },
-      { "label": "GPA", "value": "3.75/4.0" },
-      { "label": "Graduation Date", "value": "May 2026" },
-      { "label": "Location", "value": "Surabaya, Indonesia" },
+      {
+        "label": "Degree",
+        "value": "Bachelor of Law (S.H.)"
+      },
+      {
+        "label": "University",
+        "value": "UPN “Veteran” Jawa Timur"
+      },
+      {
+        "label": "GPA",
+        "value": "3.75/4.0"
+      },
+      {
+        "label": "Graduation Date",
+        "value": "May 2026"
+      },
+      {
+        "label": "Location",
+        "value": "Surabaya, Indonesia"
+      },
       {
         "label": "Certifications",
         "value": "TOEFL ITP (Score: 480)"
@@ -24,7 +39,7 @@
         "value": "Indonesian (Native), English (Professional Working Proficiency)"
       }
     ],
-    "body": "Results-driven Law graduate with practical with 2 years of internship experience in corporate legal, employment law, legal drafting, and HR operations. Combines strong legal acumen with analytical and communication skills to support compliance, organizational risk management, and employee relations."
+    "body": "Results-driven Law graduate with 2 years of internship experience in corporate legal, employment law, legal drafting, and HR operations. Combines strong legal acumen with analytical and communication skills to support compliance, organizational risk management, and employee relations."
   },
   "skills": {
     "title": "Skills",
@@ -32,38 +47,31 @@
     "columns": [
       {
         "skills": [
-          { "name": "Legal Drafting & Review", "value": 90 },
-          { "name": "Mortgage Risk & Compliance", "value": 85 },
-          { "name": "Corporate Governance & OSS", "value": 85 }
+          {
+            "name": "Legal Drafting & Review",
+            "value": 90
+          },
+          {
+            "name": "Mortgage Risk & Compliance",
+            "value": 85
+          },
+          {
+            "name": "Corporate Governance & OSS",
+            "value": 85
+          }
         ]
       },
       {
         "skills": [
-          { "name": "Project Management & Leadership", "value": 90 },
-          { "name": "Employment & Labor Relations", "value": 85 }
+          {
+            "name": "Project Management & Leadership",
+            "value": 90
+          },
+          {
+            "name": "Employment & Labor Relations",
+            "value": 85
+          }
         ]
-      }
-    ]
-  },
-  "stats": {
-    "title": "Facts",
-    "subtitle": "A snapshot of projects handled, teams led and targets delivered.",
-    "items": [
-      { "label": "HR, Legal and project CSR", "value": 30, "suffix": "+" },
-      {
-        "label": "Awardees Led as President of GenBI UPN Veteran",
-        "value": 50,
-        "suffix": "+"
-      },
-      {
-        "label": "Managing staff as HR Employee and Relations",
-        "value": 80,
-        "suffix": "+"
-      },
-      {
-        "label": "Target Achievement in Large-Scale Project Execution",
-        "value": 125,
-        "suffix": "%"
       }
     ]
   },

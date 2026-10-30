@@ -4,7 +4,7 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Reveal } from '@/components/ui/Reveal';
 import { useCountUp } from '@/lib/useCountUp';
 import { useInView } from '@/lib/useInView';
-import type { AboutContent } from '@/lib/schema';
+import type { HomeContent } from '@/lib/schema';
 
 function StatItem({ label, value, suffix }: { label: string; value: number; suffix?: string }) {
   const [ref, inView] = useInView<HTMLDivElement>();
@@ -20,7 +20,7 @@ function StatItem({ label, value, suffix }: { label: string; value: number; suff
   );
 }
 
-export function Stats({ data }: { data: AboutContent['stats'] }) {
+export function Stats({ data }: { data: HomeContent['stats'] }) {
   return (
     <Section id="stats">
       <SectionTitle title={data.title} subtitle={data.subtitle} />
