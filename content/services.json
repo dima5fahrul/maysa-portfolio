@@ -1,12 +1,54 @@
 {
-  "title": "Services",
-  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "title": "Expertise",
+  "subtitle": "Where I can contribute to a legal or HR team.",
   "items": [
-    { "icon": "activity", "color": "#0dcaf0", "title": "Nesciunt Mete", "description": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur." },
-    { "icon": "broadcast", "color": "#fd7e14", "title": "Eosle Commodi", "description": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem." },
-    { "icon": "easel", "color": "#20c997", "title": "Ledo Markt", "description": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti." },
-    { "icon": "bounding-box-circles", "color": "#df1529", "title": "Asperiores Commodit", "description": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque." },
-    { "icon": "calendar4-week", "color": "#6610f2", "title": "Velit Doloremque", "description": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore." },
-    { "icon": "chat-square-text", "color": "#f3268c", "title": "Dolori Architecto", "description": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim." }
+    {
+      "icon": "file-earmark-text",
+      "color": "#a8542f",
+      "title": "Legal Drafting & Contract Review",
+      "description": "Drafting and reviewing employment and corporate documents: company regulations, PKWT/PKWTT, collective labour agreements, MoU, NDA and demand letters (somasi).",
+      "image": "/img/portfolio/books-1.jpg",
+      "category": "legal"
+    },
+    {
+      "icon": "journal-text",
+      "color": "#a8542f",
+      "title": "Legal Research & Litigation Support",
+      "description": "Researching regulations and case material, and preparing civil litigation documents: lawsuits, replik and duplik.",
+      "image": "/img/masonry-portfolio/masonry-portfolio-5.jpg",
+      "category": "legal"
+    },
+    {
+      "icon": "shield-check",
+      "color": "#a8542f",
+      "title": "Compliance & Business Licensing",
+      "description": "Supporting regulatory compliance in corporate, employment and environmental matters, including NPWP registration and OSS licensing.",
+      "image": "/img/masonry-portfolio/masonry-portfolio-9.jpg",
+      "category": "legal"
+    },
+    {
+      "icon": "people",
+      "color": "#a8542f",
+      "title": "Employee Engagement & Relations",
+      "description": "Running engagement and people-development programmes (360° feedback, recognition, team bonding, peer counselling) for a 90-person workforce.",
+      "image": "/img/masonry-portfolio/masonry-portfolio-2.jpg",
+      "category": "hr"
+    },
+    {
+      "icon": "graph-up-arrow",
+      "color": "#a8542f",
+      "title": "KPI & HR Administration",
+      "description": "Setting up KPI monitoring and spreadsheet-based attendance, overtime and HR reporting.",
+      "image": "/img/portfolio/app-1.jpg",
+      "category": "hr"
+    },
+    {
+      "icon": "kanban",
+      "color": "#a8542f",
+      "title": "Project & Event Coordination",
+      "description": "Planning programmes across teams (timelines, budget, execution), from a 250-participant webinar to 20 community projects.",
+      "image": "/img/masonry-portfolio/masonry-portfolio-7.jpg",
+      "category": "projects"
+    }
   ]
 }

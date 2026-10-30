@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Section } from '@/components/ui/Section';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Reveal } from '@/components/ui/Reveal';
@@ -10,6 +10,20 @@ import type { PortfolioContent } from '@/lib/schema';
 
 export function PortfolioGallery({ data }: { data: PortfolioContent }) {
   const [active, setActive] = useState('all');
+
+  // Static export: read ?category= on the client (useSearchParams would need a Suspense fallback).
+  useEffect(() => {
+    const key = new URLSearchParams(window.location.search).get('category');
+    if (key && data.filters.some((f) => f.key === key)) setActive(key);
+  }, [data.filters]);
+
+  const choose = (key: string) => {
+    setActive(key);
+    const url = new URL(window.location.href);
+    if (key === 'all') url.searchParams.delete('category');
+    else url.searchParams.set('category', key);
+    window.history.replaceState(window.history.state, '', url);
+  };
 
   const { featured, grid } = useMemo(() => {
     if (active !== 'all') return { featured: undefined, grid: data.items.filter((i) => i.category === active) };
@@ -27,7 +41,7 @@ export function PortfolioGallery({ data }: { data: PortfolioContent }) {
             <button
               type="button"
               aria-pressed={active === f.key}
-              onClick={() => setActive(f.key)}
+              onClick={() => choose(f.key)}
               className={`rounded-full border px-5 py-2 text-sm font-medium transition-colors ${
                 active === f.key
                   ? 'border-accent bg-accent text-white'

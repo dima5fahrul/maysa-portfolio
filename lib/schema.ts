@@ -53,7 +53,10 @@ export const resumeSchema = z.object({
   columns: z.array(resumeColumnSchema),
 });
 
-const serviceSchema = z.object({ icon: z.string(), color: z.string(), title: z.string(), description: z.string() });
+const serviceSchema = z.object({
+  icon: z.string(), color: z.string(), title: z.string(), description: z.string(),
+  image: z.string().optional(), category: z.string().optional(),
+});
 export const servicesSchema = z.object({
   title: z.string(), subtitle: z.string(), items: z.array(serviceSchema),
 });

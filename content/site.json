@@ -5,7 +5,7 @@
     { "label": "Home", "href": "/" },
     { "label": "About", "href": "/about" },
     { "label": "Resume", "href": "/resume" },
-    { "label": "Services", "href": "/services" },
+    { "label": "Expertise", "href": "/services" },
     { "label": "Portfolio", "href": "/portfolio" },
     { "label": "Contact", "href": "/contact" }
   ],

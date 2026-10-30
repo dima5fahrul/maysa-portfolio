@@ -11,7 +11,7 @@ export default function ServicesPage() {
       <SectionTitle title={data.title} subtitle={data.subtitle} />
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {data.items.map((s, i) => (
-          <Reveal key={s.title} delay={i * 80}><ServiceCard service={s} /></Reveal>
+          <Reveal key={s.title} delay={i * 80} className="h-full"><ServiceCard service={s} /></Reveal>
         ))}
       </div>
     </Section>
