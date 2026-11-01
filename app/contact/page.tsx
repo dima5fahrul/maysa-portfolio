@@ -12,7 +12,7 @@ export default function ContactPage() {
       <SectionTitle title={data.title} subtitle={data.subtitle} />
       <div className="grid gap-10 md:grid-cols-2">
         <Reveal from="left">
-          <ContactInfo info={data.info} mapEmbedUrl={data.mapEmbedUrl} />
+          <ContactInfo info={data.info} />
         </Reveal>
         <Reveal from="right" delay={120}>
           <ContactForm email={data.email} />

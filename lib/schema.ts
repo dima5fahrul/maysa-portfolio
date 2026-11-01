@@ -115,8 +115,7 @@ export const contactSchema = z.object({
   title: z.string(),
   subtitle: z.string(),
   email: z.string(),
-  info: z.array(z.object({ icon: z.string(), title: z.string(), text: z.string() })),
-  mapEmbedUrl: z.string(),
+  info: z.array(z.object({ icon: z.string(), title: z.string(), text: z.string(), href: z.string().optional() })),
 });
 
 export type SiteContent = z.infer<typeof siteSchema>;

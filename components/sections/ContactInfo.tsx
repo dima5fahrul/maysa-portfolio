@@ -1,7 +1,7 @@
 import { Icon } from '@/components/ui/Icon';
 import type { ContactContent } from '@/lib/schema';
 
-export function ContactInfo({ info, mapEmbedUrl }: { info: ContactContent['info']; mapEmbedUrl: string }) {
+export function ContactInfo({ info }: { info: ContactContent['info'] }) {
   return (
     <div className="space-y-6">
       {info.map((i) => (
@@ -9,11 +9,20 @@ export function ContactInfo({ info, mapEmbedUrl }: { info: ContactContent['info'
           <Icon name={i.icon} className="text-2xl text-accent" />
           <div>
             <h3 className="font-semibold">{i.title}</h3>
-            <p className="text-muted">{i.text}</p>
+            {i.href ? (
+              <a
+                href={i.href}
+                {...(i.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                className="text-muted transition-colors hover:text-accent"
+              >
+                {i.text}
+              </a>
+            ) : (
+              <p className="text-muted">{i.text}</p>
+            )}
           </div>
         </div>
       ))}
-      <iframe src={mapEmbedUrl} className="h-64 w-full rounded border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Map" />
     </div>
   );
 }

@@ -1,11 +1,9 @@
 {
   "title": "Contact",
-  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
-  "email": "info@example.com",
+  "subtitle": "Open to Legal and HR roles. The quickest way to reach me is WhatsApp or email.",
+  "email": "samaysa999@gmail.com",
   "info": [
-    { "icon": "geo-alt", "title": "Address", "text": "A108 Adam Street, New York, NY 535022" },
-    { "icon": "telephone", "title": "Call Us", "text": "+1 5589 55488 55" },
-    { "icon": "envelope", "title": "Email Us", "text": "info@example.com" }
-  ],
-  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+    { "icon": "whatsapp", "title": "WhatsApp", "text": "+62 877-7409-6381", "href": "https://wa.me/6287774096381" },
+    { "icon": "envelope", "title": "Email", "text": "samaysa999@gmail.com", "href": "mailto:samaysa999@gmail.com" }
+  ]
 }
