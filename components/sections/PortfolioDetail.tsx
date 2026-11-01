@@ -4,6 +4,7 @@ import { Reveal } from '@/components/ui/Reveal';
 import { Icon } from '@/components/ui/Icon';
 import { Button } from '@/components/ui/Button';
 import { ProjectCover } from '@/components/portfolio/ProjectCover';
+import { GalleryLightbox } from '@/components/portfolio/GalleryLightbox';
 import type { PortfolioItem } from '@/lib/schema';
 
 function CaseSection({ title, children }: { title: string; children: React.ReactNode }) {
@@ -28,7 +29,6 @@ export function PortfolioDetail({ item, next, art }: { item: PortfolioItem; next
     ...(item.team ? [{ label: 'Team', value: item.team }] : []),
   ];
   const gallery = item.gallery ?? [];
-  const single = gallery.length === 1;
 
   return (
     <article>
@@ -126,17 +126,7 @@ export function PortfolioDetail({ item, next, art }: { item: PortfolioItem; next
 
           {gallery.length > 0 && (
             <CaseSection title="Documentation">
-              <div className={`grid gap-3 ${single ? 'grid-cols-1' : 'grid-cols-2 sm:grid-cols-3'}`}>
-                {gallery.map((src, i) => (
-                  <img
-                    key={src}
-                    src={src}
-                    alt={`${item.title}, documentation ${i + 1}`}
-                    loading="lazy"
-                    className={`w-full rounded object-cover ${single ? 'aspect-video' : 'aspect-[4/3]'}`}
-                  />
-                ))}
-              </div>
+              <GalleryLightbox images={gallery} title={item.title} />
             </CaseSection>
           )}
 

@@ -45,6 +45,7 @@ const config: Config = {
         'ken-burns': 'ken-burns 22s cubic-bezier(0.33, 0, 0.2, 1) forwards',
         'fade-up': 'fade-up 1s cubic-bezier(0.22, 1, 0.36, 1) both',
         'fade-in': 'fade-in 1.2s ease-out both',
+        'fade-in-fast': 'fade-in 0.25s ease-out both',
         'line-grow': 'line-grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) both',
         'scroll-cue': 'scroll-cue 2.2s ease-in-out 2s infinite',
       },
