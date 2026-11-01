@@ -10,11 +10,11 @@ export default function ContactPage() {
   return (
     <Section id="contact">
       <SectionTitle title={data.title} subtitle={data.subtitle} />
-      <div className="grid gap-10 md:grid-cols-2">
-        <Reveal from="left">
+      <div className="grid gap-10 md:grid-cols-5">
+        <Reveal from="left" className="h-full md:col-span-2">
           <ContactInfo info={data.info} />
         </Reveal>
-        <Reveal from="right" delay={120}>
+        <Reveal from="right" delay={120} className="md:col-span-3">
           <ContactForm email={data.email} />
         </Reveal>
       </div>

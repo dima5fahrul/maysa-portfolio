@@ -3,7 +3,7 @@
   "subtitle": "Open to Legal and HR roles. The quickest way to reach me is WhatsApp or email.",
   "email": "samaysa999@gmail.com",
   "info": [
-    { "icon": "whatsapp", "title": "WhatsApp", "text": "+62 877-7409-6381", "href": "https://wa.me/6287774096381" },
-    { "icon": "envelope", "title": "Email", "text": "samaysa999@gmail.com", "href": "mailto:samaysa999@gmail.com" }
+    { "icon": "whatsapp", "title": "WhatsApp", "text": "+62 877-7409-6381", "href": "https://wa.me/6287774096381", "action": "Chat on WhatsApp" },
+    { "icon": "envelope", "title": "Email", "text": "samaysa999@gmail.com", "href": "mailto:samaysa999@gmail.com", "action": "Send an email" }
   ]
 }
