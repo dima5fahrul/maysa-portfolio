@@ -1,51 +1,190 @@
 {
   "title": "Portfolio",
-  "subtitle": "Selected legal, HR and organisational projects, each told as a short case study: the situation, my role, what I did and what it delivered.",
+  "subtitle": "Legal drafting, litigation, HR, research and organisational work, each told as a short case study: the situation, my role, what I did and what it delivered.",
   "filters": [
-    { "key": "all", "label": "All" },
-    { "key": "legal", "label": "Legal" },
-    { "key": "hr", "label": "HR" },
-    { "key": "projects", "label": "Projects & Organizations", "tag": "Projects" }
+    {
+      "key": "all",
+      "label": "All",
+      "image": "/img/categories/all.jpg"
+    },
+    {
+      "key": "drafting",
+      "label": "Contract & Drafting",
+      "tag": "Drafting",
+      "image": "/img/categories/drafting.jpg"
+    },
+    {
+      "key": "litigation",
+      "label": "Research & Litigation",
+      "tag": "Litigation",
+      "image": "/img/categories/litigation.jpg"
+    },
+    {
+      "key": "hr",
+      "label": "Human Resource",
+      "tag": "HR",
+      "image": "/img/categories/hr.jpg"
+    },
+    {
+      "key": "projects",
+      "label": "Awardee & Projects",
+      "tag": "Projects",
+      "image": "/img/categories/projects.jpg"
+    },
+    {
+      "key": "research",
+      "label": "Research & Thesis",
+      "tag": "Research",
+      "image": "/img/categories/research.jpg"
+    }
   ],
   "items": [
     {
-      "slug": "class-of-insight",
-      "title": "Class of Insight: a National Webinar with a KPK Speaker",
+      "slug": "genbi-community-projects",
+      "title": "Leading 50+ Bank Indonesia Scholarship Awardees Across 20 Community Development Projects at GenBI UPN Veteran Jawa Timur",
       "category": "projects",
-      "field": "Event · Project Management",
-      "role": "Director Project Management",
-      "organization": "Forlawtous.id, Jakarta",
-      "period": "2023–2024",
-      "team": "Web Development, Content and Event Organization divisions",
-      "summary": "Planned and delivered Class of Insight featuring Edi Suryanto (KPK), coordinating three divisions to reach 125% of the participant target.",
-      "cover": "/img/masonry-portfolio/masonry-portfolio-1.jpg",
+      "field": "Leadership · Community Development",
+      "role": "President",
+      "organization": "GenBI UPN Veteran Jawa Timur Commissariat",
+      "period": "November 2025–Present",
+      "team": "50+ awardees",
+      "summary": "Directing strategy, team coordination and programme evaluation across education, environment, English communication and entrepreneurship projects.",
+      "cover": "/img/work/genbi-bnsp-training.jpg",
       "metrics": [
-        { "value": "250", "label": "Participants attended" },
-        { "value": "125%", "label": "Of the registration target" },
-        { "value": "3", "label": "Divisions coordinated" }
+        {
+          "value": "50+",
+          "label": "Awardees led"
+        },
+        {
+          "value": "20",
+          "label": "Community development projects"
+        }
+      ],
+      "situation": [
+        "GenBI is the Bank Indonesia scholarship community, and each commissariat is expected to give back through community programmes. At UPN Veteran Jawa Timur, projects were running in parallel with little shared planning.",
+        "With a large membership and a short leadership term, the commissariat needed a clear strategy, an evaluation habit and a way to keep every project owner accountable."
+      ],
+      "task": "As President, I set the organisation's direction and was accountable for coordination across all teams and for evaluating the programmes they ran.",
+      "steps": [
+        {
+          "title": "Set the strategy",
+          "description": "Defined priority themes for the term: education, environmental sustainability, capacity-building, English communication and entrepreneurship."
+        },
+        {
+          "title": "Organise the teams",
+          "description": "Assigned project leads, agreed on timelines and set a regular rhythm of progress meetings."
+        },
+        {
+          "title": "Evaluate and improve",
+          "description": "Introduced a short evaluation after each programme so lessons carried into the next one."
+        }
+      ],
+      "resultNotes": [
+        "Twenty community development projects planned and tracked under one strategy.",
+        "Programme evaluation became a standing step rather than an afterthought."
       ],
       "featured": true,
       "selected": true,
-      "situation": [
-        "Forlawtous.id runs educational and human capital development programs for law students and young professionals. Its flagship events depended on three separate divisions (Web Development, Content and Event Organization) that each worked to their own calendar.",
-        "Class of Insight was planned as the community's most visible event to date, with a speaker from the Corruption Eradication Commission (KPK). Registration, promotion and the programme itself all had to line up inside a fixed timeline and budget."
+      "gallery": [
+        "/img/work/genbi-inauguration.jpg",
+        "/img/work/genbi-scholarship.jpg",
+        "/img/work/genbi-mangrove-festival.jpg",
+        "/img/work/genbi-biventure.jpg",
+        "/img/work/genbi-qris.jpg",
+        "/img/work/genbi-serombi.jpg",
+        "/img/work/genbi-team.jpg"
+      ]
+    },
+    {
+      "slug": "company-regulation-pkwt",
+      "title": "Company Regulations, Agreements and Demand Letters",
+      "category": "drafting",
+      "field": "Employment Law · Legal Drafting",
+      "role": "Legal Staff",
+      "organization": "HHL Associates Attorney At Law",
+      "period": "February–July 2025",
+      "summary": "Drafted and reviewed company regulations, PKWT and PKWTT agreements, cooperation agreements, lawsuits and demand letters (somasi) for client businesses.",
+      "metrics": [
+        {
+          "value": "12",
+          "label": "Chapters in a company regulation draft"
+        },
+        {
+          "value": "38",
+          "label": "Pages in that draft"
+        }
       ],
-      "task": "As Director Project Management, I was responsible for the plan end to end: timeline, budget, cross-division coordination and the final run of the event.",
-      "quote": "A good event is mostly decided before the day itself. Clear owners and honest deadlines did more for us than any last-minute push.",
+      "selected": true,
+      "situation": [
+        "Client companies needed employment documents that matched current labour regulation. Several relied on old templates that no longer fitted their workforce or their working arrangements.",
+        "At the same time, new businesses needed their registrations and licences in order, including NPWP registration and OSS licensing, before they could start hiring."
+      ],
+      "task": "As Legal Staff, I assisted the attorneys with drafting and reviewing employment and corporate documents, and with the legal research behind them.",
       "steps": [
-        { "title": "Scope and timeline", "description": "Set the event goals, a registration target and a working timeline, then agreed milestones with each division lead." },
-        { "title": "Budget and speaker", "description": "Prepared the budget, confirmed the speaker and aligned the session topic with the audience we wanted to reach." },
-        { "title": "Weekly coordination", "description": "Ran a short weekly check-in across Web, Content and Event teams so registration pages, promotion and logistics stayed in step." },
-        { "title": "Event day and review", "description": "Directed the run of show on the day and closed with a written evaluation for the next committee." }
+        {
+          "title": "Research the rules",
+          "description": "Checked the relevant labour, corporate and environmental regulations before each draft, and noted the clauses that mattered most to the client."
+        },
+        {
+          "title": "Draft the documents",
+          "description": "Prepared company regulations, PKWT and PKWTT agreements, collective labour agreements, MoUs and NDAs from the client's facts."
+        },
+        {
+          "title": "Review and revise",
+          "description": "Reviewed drafts against checklists, tracked comments from supervising attorneys and delivered clean final versions."
+        }
       ],
       "resultNotes": [
-        "Registrations passed the target, closing at 125% of what the committee had planned for.",
-        "The three-division workflow was documented and reused for later programmes."
+        "Clients received documents consistent with current employment regulation.",
+        "Supported several businesses through NPWP registration and OSS licensing.",
+        "Sample documents shown here use fictional company names."
       ],
+      "cover": "/img/work/legal-drafting.jpg",
       "gallery": [
-        "/img/portfolio/app-1.jpg",
-        "/img/portfolio/product-1.jpg",
-        "/img/portfolio/branding-1.jpg"
+        "/img/categories/drafting.jpg"
+      ]
+    },
+    {
+      "slug": "court-hearings-litigation",
+      "title": "Court Hearings, Mediation and Civil Pleadings",
+      "category": "litigation",
+      "field": "Civil Litigation · Court Practice",
+      "role": "Legal Staff",
+      "organization": "HHL Associates Attorney At Law",
+      "period": "February–July 2025",
+      "summary": "Prepared civil pleadings (lawsuits, replik and duplik) and attended hearings and mediation in tort (PMH), breach of contract (wanprestasi) and marriage cases.",
+      "metrics": [
+        {
+          "value": "4",
+          "label": "Kinds of proceedings attended"
+        },
+        {
+          "value": "3",
+          "label": "Pleading types drafted"
+        }
+      ],
+      "situation": [
+        "Civil cases move on paper first: a lawsuit, the defendant's answer, then replik and duplik. Each pleading has to answer the last one point by point, on a court deadline.",
+        "Between filings, the case continues in the courtroom and in mediation, where the facts and arguments in those pleadings are tested."
+      ],
+      "task": "As Legal Staff, I helped the attorneys prepare civil pleadings and attended hearings and mediation sessions, including at Pengadilan Negeri Malang Kelas IA.",
+      "steps": [
+        {
+          "title": "Research the case",
+          "description": "Reviewed the facts and the applicable rules on tort and breach of contract before each pleading."
+        },
+        {
+          "title": "Draft the pleadings",
+          "description": "Prepared drafts of lawsuits, replik and duplik for the supervising attorneys to review."
+        },
+        {
+          "title": "Attend hearings and mediation",
+          "description": "Attended tort (PMH), breach of contract and marriage case hearings, and court-annexed mediation."
+        },
+        {
+          "title": "Record and follow up",
+          "description": "Noted what happened at each session and the next steps for the case file."
+        }
       ]
     },
     {
@@ -58,10 +197,15 @@
       "period": "January–August 2025",
       "team": "HR Employees and Relations division",
       "summary": "Introduced KPI monitoring and a 360° feedback system for 90 employees, and was named Manager of the Month (May 2025) with a 95% KPI score.",
-      "cover": "/img/masonry-portfolio/masonry-portfolio-4.jpg",
       "metrics": [
-        { "value": "90", "label": "Employees covered" },
-        { "value": "95%", "label": "KPI score, May 2025" }
+        {
+          "value": "90",
+          "label": "Employees covered"
+        },
+        {
+          "value": "95%",
+          "label": "KPI score, May 2025"
+        }
       ],
       "selected": true,
       "situation": [
@@ -70,89 +214,146 @@
       ],
       "task": "I started as HR staff and became Manager of the HR Employees and Relations division. I was responsible for building a fairer way to measure performance and for keeping engagement programmes running for 90 employees.",
       "steps": [
-        { "title": "Consolidate the data", "description": "Moved attendance and overtime tracking into one spreadsheet-based system with consistent fields and a monthly review." },
-        { "title": "Introduce KPIs", "description": "Worked with team leads to define KPIs per role and set up regular monitoring against them." },
-        { "title": "360° feedback", "description": "Designed and rolled out a 360° feedback process so evaluation also reflected peers and direct reports." },
-        { "title": "Engagement programmes", "description": "Ran staff recognition, team bonding and peer counselling activities, and documented each event for the HR report." }
+        {
+          "title": "KPI and 360° feedback",
+          "description": "Worked with team leads to define KPIs per role and rolled out a 360° feedback process so evaluation also reflected peers and direct reports."
+        },
+        {
+          "title": "Monthly appraisal",
+          "description": "Ran a monthly appraisal cycle, backed by spreadsheet-based attendance and overtime records."
+        },
+        {
+          "title": "Onboarding and offboarding",
+          "description": "Handled onboarding for new staff and offboarding for those leaving the company."
+        },
+        {
+          "title": "Peer counselling",
+          "description": "Set up peer counselling so staff had a colleague to talk to about work concerns."
+        },
+        {
+          "title": "Awarding",
+          "description": "Ran staff recognition and awards, alongside team bonding activities, and documented each event for the HR report."
+        }
       ],
       "resultNotes": [
         "Recognised as Best Staff, Human Resources, and later as Manager of the Month (May 2025).",
         "The division was named Best Performing Division and Best Division for HR Employee Engagement and Relations."
-      ],
-      "gallery": [
-        "/img/portfolio/books-1.jpg",
-        "/img/portfolio/product-1.jpg"
       ]
     },
     {
-      "slug": "company-regulation-pkwt",
-      "title": "Company Regulations, PKWT and Employment Agreements",
-      "category": "legal",
-      "field": "Employment Law · Legal Drafting",
-      "role": "Legal Staff",
-      "organization": "HHL Associates Attorney At Law",
-      "period": "February–July 2025",
-      "summary": "Drafted and reviewed company regulations, fixed-term (PKWT) and permanent (PKWTT) employment agreements and related corporate documents for client businesses.",
+      "slug": "legal-research-publications",
+      "title": "Legal Research and Publications: Derivative Suits, Predatory Pricing and Judicial Review",
+      "category": "research",
+      "field": "Legal Research · Academic Writing",
+      "role": "Author and co-author",
+      "organization": "UPN “Veteran” Jawa Timur",
+      "period": "2024–2025",
+      "summary": "Wrote a comparative study of derivative suits in Indonesia, Japan and Singapore, and co-authored two published journal articles.",
       "metrics": [
-        { "value": "10+", "label": "Document types drafted or reviewed" }
+        {
+          "value": "3",
+          "label": "Research papers"
+        },
+        {
+          "value": "2",
+          "label": "Published journal articles"
+        },
+        {
+          "value": "3",
+          "label": "Jurisdictions compared"
+        }
       ],
-      "selected": true,
       "situation": [
-        "Client companies needed employment documents that matched current labour regulation. Several relied on old templates that no longer fitted their workforce or their working arrangements.",
-        "At the same time, new businesses needed their registrations and licences in order, including NPWP registration and OSS licensing, before they could start hiring."
+        "Corporate law gives shareholders a derivative suit to act on the company's behalf when its own directors will not. How well that mechanism works in practice differs a great deal between legal systems.",
+        "Alongside that study, two research projects looked at competition law in e-commerce and at how well the public understands judicial review at the Constitutional Court."
       ],
-      "task": "As Legal Staff, I assisted the attorneys with drafting and reviewing employment and corporate documents, and with the legal research behind them.",
+      "task": "I was the lead author of the derivative suit study and a co-author of the two journal articles.",
       "steps": [
-        { "title": "Research the rules", "description": "Checked the relevant labour, corporate and environmental regulations before each draft, and noted the clauses that mattered most to the client." },
-        { "title": "Draft the documents", "description": "Prepared company regulations, PKWT and PKWTT agreements, collective labour agreements, MoUs and NDAs from the client's facts." },
-        { "title": "Review and revise", "description": "Reviewed drafts against checklists, tracked comments from supervising attorneys and delivered clean final versions." }
+        {
+          "title": "Derivative suits as corporate oversight",
+          "description": "Analysed how effective derivative suits are as a corporate oversight mechanism in Indonesia, compared with Japan and Singapore."
+        },
+        {
+          "title": "Predatory pricing in e-commerce",
+          "description": "Co-authored a case study of predatory pricing on the Lazada platform, published in the Indonesian Journal of Social Sciences and Humanities (December 2024)."
+        },
+        {
+          "title": "Public understanding of judicial review",
+          "description": "Co-authored a study of how the public understands the object, subject and timing of judicial review at the Constitutional Court, published in Veteran Society: Jurnal Pengabdian Masyarakat, Vol. 6 No. 2 (2025)."
+        }
       ],
       "resultNotes": [
-        "Clients received documents consistent with current employment regulation.",
-        "Supported several businesses through NPWP registration and OSS licensing."
+        "Analisis Praktek Predatory Pricing dalam E-Commerce (Studi Kasus Platform Lazada), Indonesian Journal of Social Sciences and Humanities, 2024.",
+        "Analisis Pemahaman Masyarakat Terkait Objek, Subjek dan Waktu dalam Pengujian Undang-Undang ke Mahkamah Konstitusi, Veteran Society: Jurnal Pengabdian Masyarakat, Vol. 6 No. 2, 2025."
       ]
     },
     {
-      "slug": "genbi-community-projects",
-      "title": "Leading 50+ Bank Indonesia Scholarship Awardees Across 20 Community Development Projects at GenBI UPN Veteran Jawa Timur",
+      "slug": "class-of-insight",
+      "title": "Class of Insight: a National Webinar with a KPK Speaker",
       "category": "projects",
-      "field": "Leadership · Community Development",
-      "role": "President",
-      "organization": "GenBI UPN Veteran Jawa Timur Commissariat",
-      "period": "November 2025–Present",
-      "team": "50+ awardees",
-      "summary": "Directing strategy, team coordination and programme evaluation across education, environment, English communication and entrepreneurship projects.",
-      "cover": "/img/masonry-portfolio/masonry-portfolio-7.jpg",
+      "field": "Event · Project Management",
+      "role": "Director Project Management",
+      "organization": "Forlawtous.id, Jakarta",
+      "period": "2023–2024",
+      "team": "Web Development, Content and Event Organization divisions",
+      "summary": "Planned and delivered Class of Insight featuring Edi Suryanto (KPK), coordinating three divisions to reach 125% of the participant target.",
       "metrics": [
-        { "value": "50+", "label": "Awardees led" },
-        { "value": "20", "label": "Community development projects" }
+        {
+          "value": "250",
+          "label": "Participants attended"
+        },
+        {
+          "value": "125%",
+          "label": "Of the registration target"
+        },
+        {
+          "value": "3",
+          "label": "Divisions coordinated"
+        }
       ],
       "situation": [
-        "GenBI is the Bank Indonesia scholarship community, and each commissariat is expected to give back through community programmes. At UPN Veteran Jawa Timur, projects were running in parallel with little shared planning.",
-        "With a large membership and a short leadership term, the commissariat needed a clear strategy, an evaluation habit and a way to keep every project owner accountable."
+        "Forlawtous.id runs educational and human capital development programs for law students and young professionals. Its flagship events depended on three separate divisions (Web Development, Content and Event Organization) that each worked to their own calendar.",
+        "Class of Insight was planned as the community's most visible event to date, with a speaker from the Corruption Eradication Commission (KPK). Registration, promotion and the programme itself all had to line up inside a fixed timeline and budget."
       ],
-      "task": "As President, I set the organisation's direction and was accountable for coordination across all teams and for evaluating the programmes they ran.",
+      "task": "As Director Project Management, I was responsible for the plan end to end: timeline, budget, cross-division coordination and the final run of the event.",
+      "quote": "A good event is mostly decided before the day itself. Clear owners and honest deadlines did more for us than any last-minute push.",
       "steps": [
-        { "title": "Set the strategy", "description": "Defined priority themes for the term: education, environmental sustainability, capacity-building, English communication and entrepreneurship." },
-        { "title": "Organise the teams", "description": "Assigned project leads, agreed on timelines and set a regular rhythm of progress meetings." },
-        { "title": "Evaluate and improve", "description": "Introduced a short evaluation after each programme so lessons carried into the next one." }
+        {
+          "title": "Scope and timeline",
+          "description": "Set the event goals, a registration target and a working timeline, then agreed milestones with each division lead."
+        },
+        {
+          "title": "Budget and speaker",
+          "description": "Prepared the budget, confirmed the speaker and aligned the session topic with the audience we wanted to reach."
+        },
+        {
+          "title": "Weekly coordination",
+          "description": "Ran a short weekly check-in across Web, Content and Event teams so registration pages, promotion and logistics stayed in step."
+        },
+        {
+          "title": "Event day and review",
+          "description": "Directed the run of show on the day and closed with a written evaluation for the next committee."
+        }
       ],
       "resultNotes": [
-        "Twenty community development projects planned and tracked under one strategy.",
-        "Programme evaluation became a standing step rather than an afterthought."
+        "Registrations passed the target, closing at 125% of what the committee had planned for.",
+        "The three-division workflow was documented and reused for later programmes."
       ]
     },
     {
       "slug": "litmas-legal-research",
       "title": "Legal Research and Social Inquiry Reports (Litmas)",
-      "category": "legal",
+      "category": "litigation",
       "field": "Legal Research · Criminal Justice",
       "role": "Legal Research Intern",
       "organization": "Balai Pemasyarakatan Kelas IA Surabaya",
       "period": "June–July 2024",
       "summary": "Researched correctional and criminal justice regulations and supported Community Counselors in preparing social inquiry reports.",
       "metrics": [
-        { "value": "10+", "label": "Case files documented and analysed" }
+        {
+          "value": "10+",
+          "label": "Case files documented and analysed"
+        }
       ],
       "situation": [
         "Community Counselors at the correctional centre prepare social inquiry reports (Laporan Penelitian Kemasyarakatan, or Litmas) that inform decisions on inmate rehabilitation and supervision programmes.",
@@ -160,9 +361,18 @@
       ],
       "task": "As Legal Research Intern, I was responsible for the regulatory research behind the reports and for helping counselors keep case documentation complete.",
       "steps": [
-        { "title": "Map the regulations", "description": "Collected the correctional and criminal justice regulations that applied to the cases in front of the counselors." },
-        { "title": "Support the Litmas", "description": "Assisted counselors in preparing social inquiry reports, organising facts and checking references." },
-        { "title": "Document and analyse", "description": "Wrote up case documentation and short analyses related to rehabilitation and supervision programmes." }
+        {
+          "title": "Map the regulations",
+          "description": "Collected the correctional and criminal justice regulations that applied to the cases in front of the counselors."
+        },
+        {
+          "title": "Support the Litmas",
+          "description": "Assisted counselors in preparing social inquiry reports, organising facts and checking references."
+        },
+        {
+          "title": "Document and analyse",
+          "description": "Wrote up case documentation and short analyses related to rehabilitation and supervision programmes."
+        }
       ],
       "resultNotes": [
         "Counselors had a ready reference of applicable regulations for their reports.",
@@ -178,10 +388,15 @@
       "organization": "Forlawtous.id, Jakarta",
       "period": "2023–2024",
       "summary": "Led the planning and launch of the organisation's official website, working with the Web Development and Content divisions.",
-      "cover": "/img/masonry-portfolio/masonry-portfolio-2.jpg",
       "metrics": [
-        { "value": "1", "label": "Official website launched" },
-        { "value": "3", "label": "Divisions aligned on one plan" }
+        {
+          "value": "1",
+          "label": "Official website launched"
+        },
+        {
+          "value": "3",
+          "label": "Divisions aligned on one plan"
+        }
       ],
       "situation": [
         "Forlawtous.id had been publishing its educational content and event information through social media alone. Visitors had no single place to find the programmes, the team or the articles.",
@@ -189,17 +404,26 @@
       ],
       "task": "As Director Project Management, I owned the delivery plan, the schedule and the coordination between the divisions that would build and fill the site.",
       "steps": [
-        { "title": "Define the scope", "description": "Agreed on the pages, features and priorities for the first release with the Web Development and Content leads." },
-        { "title": "Plan the build", "description": "Broke the work into milestones with owners and dates, and tracked the budget alongside them." },
-        { "title": "Prepare the content", "description": "Coordinated writers and the events team so every page had approved copy before the site went live." },
-        { "title": "Launch and hand over", "description": "Went live on schedule and documented how the site would be maintained by the next committee." }
+        {
+          "title": "Define the scope",
+          "description": "Agreed on the pages, features and priorities for the first release with the Web Development and Content leads."
+        },
+        {
+          "title": "Plan the build",
+          "description": "Broke the work into milestones with owners and dates, and tracked the budget alongside them."
+        },
+        {
+          "title": "Prepare the content",
+          "description": "Coordinated writers and the events team so every page had approved copy before the site went live."
+        },
+        {
+          "title": "Launch and hand over",
+          "description": "Went live on schedule and documented how the site would be maintained by the next committee."
+        }
       ],
       "resultNotes": [
         "The organisation now has an official home for its programmes and articles.",
         "Maintenance steps were handed over in writing."
-      ],
-      "gallery": [
-        "/img/portfolio/branding-1.jpg"
       ]
     }
   ]

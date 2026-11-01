@@ -5,7 +5,7 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Reveal } from '@/components/ui/Reveal';
 import { FeaturedProject } from '@/components/portfolio/FeaturedProject';
 import { ProjectCard } from '@/components/portfolio/ProjectCard';
-import { categoryTag } from '@/lib/portfolio';
+import { categoryImage, categoryTag } from '@/lib/portfolio';
 import type { PortfolioContent } from '@/lib/schema';
 
 export function PortfolioGallery({ data }: { data: PortfolioContent }) {
@@ -35,28 +35,43 @@ export function PortfolioGallery({ data }: { data: PortfolioContent }) {
     <Section id="portfolio">
       <SectionTitle title={data.title} subtitle={data.subtitle} />
 
-      <ul className="mb-10 flex flex-wrap justify-center gap-3">
-        {data.filters.map((f) => (
-          <li key={f.key}>
-            <button
-              type="button"
-              aria-pressed={active === f.key}
-              onClick={() => choose(f.key)}
-              className={`rounded-full border px-5 py-2 text-sm font-medium transition-colors ${
-                active === f.key
-                  ? 'border-accent bg-accent text-white'
-                  : 'border-accent/30 bg-white text-heading hover:border-accent hover:text-accent'
-              }`}
-            >
-              {f.label}
-            </button>
-          </li>
-        ))}
+      <ul className="mb-12 grid grid-cols-3 gap-x-3 gap-y-5 sm:gap-x-4 lg:grid-cols-6">
+        {data.filters.map((f) => {
+          const on = active === f.key;
+          return (
+            <li key={f.key}>
+              <button type="button" aria-pressed={on} onClick={() => choose(f.key)} className="group block w-full text-center">
+                <span
+                  className={`block overflow-hidden rounded-lg ring-2 ring-offset-2 ring-offset-page transition ${
+                    on ? 'ring-accent' : 'ring-transparent group-hover:ring-accent/40'
+                  }`}
+                >
+                  {f.image ? (
+                    <img
+                      src={f.image}
+                      alt=""
+                      className={`aspect-square w-full object-cover transition duration-300 group-hover:scale-105 ${
+                        on ? '' : 'opacity-75 group-hover:opacity-100'
+                      }`}
+                    />
+                  ) : (
+                    <span className="flex aspect-square items-center justify-center bg-surface font-serif text-5xl italic text-accent">
+                      {f.label.charAt(0)}
+                    </span>
+                  )}
+                </span>
+                <span className={`mt-2 block text-sm font-medium leading-snug ${on ? 'text-accent' : 'text-heading'}`}>
+                  {f.label}
+                </span>
+              </button>
+            </li>
+          );
+        })}
       </ul>
 
       {featured && (
         <Reveal className="mb-6">
-          <FeaturedProject item={featured} />
+          <FeaturedProject item={featured} art={categoryImage(data.filters, featured.category)} />
         </Reveal>
       )}
 
@@ -64,7 +79,11 @@ export function PortfolioGallery({ data }: { data: PortfolioContent }) {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {grid.map((item, idx) => (
             <Reveal key={item.slug} delay={(idx % 3) * 100} className="h-full">
-              <ProjectCard item={item} tag={categoryTag(data.filters, item.category)} />
+              <ProjectCard
+                item={item}
+                tag={categoryTag(data.filters, item.category)}
+                art={categoryImage(data.filters, item.category)}
+              />
             </Reveal>
           ))}
         </div>

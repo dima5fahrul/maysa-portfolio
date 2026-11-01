@@ -68,7 +68,9 @@ export const servicesSchema = z.object({
 
 const metricSchema = z.object({ value: z.string(), label: z.string() });
 const caseStepSchema = z.object({ title: z.string(), description: z.string() });
-const portfolioFilterSchema = z.object({ key: z.string(), label: z.string(), tag: z.string().optional() });
+const portfolioFilterSchema = z.object({
+  key: z.string(), label: z.string(), tag: z.string().optional(), image: z.string().optional(),
+});
 
 const portfolioItemSchema = z.object({
   slug: z.string(),

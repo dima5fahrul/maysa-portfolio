@@ -20,7 +20,7 @@ function CaseSection({ title, children }: { title: string; children: React.React
   );
 }
 
-export function PortfolioDetail({ item, next }: { item: PortfolioItem; next?: PortfolioItem }) {
+export function PortfolioDetail({ item, next, art }: { item: PortfolioItem; next?: PortfolioItem; art?: string }) {
   const facts = [
     { label: 'Role', value: item.role },
     { label: 'Organization', value: item.organization },
@@ -32,7 +32,7 @@ export function PortfolioDetail({ item, next }: { item: PortfolioItem; next?: Po
 
   return (
     <article>
-      <ProjectCover item={item} variant="hero" className="h-[50vh] min-h-[22rem] rounded-none">
+      <ProjectCover item={item} variant="hero" art={art} className="h-[50vh] min-h-[22rem] rounded-none">
         <div
           className={`px-4 pb-8 md:pb-12 ${
             item.cover ? 'flex h-full flex-col justify-end bg-gradient-to-t from-black/85 via-black/60 to-transparent' : ''

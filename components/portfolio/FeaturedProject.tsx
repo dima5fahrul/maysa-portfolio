@@ -2,13 +2,13 @@ import Link from 'next/link';
 import type { PortfolioItem } from '@/lib/schema';
 import { ProjectCover } from './ProjectCover';
 
-export function FeaturedProject({ item }: { item: PortfolioItem }) {
+export function FeaturedProject({ item, art }: { item: PortfolioItem; art?: string }) {
   return (
     <Link
       href={`/portfolio/${item.slug}`}
       className="group flex flex-col overflow-hidden rounded-lg bg-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg md:flex-row"
     >
-      <ProjectCover item={item} tag="Featured" className="h-56 shrink-0 md:h-auto md:min-h-[22rem] md:w-[55%]" />
+      <ProjectCover item={item} tag="Featured" art={art} className="h-56 shrink-0 md:h-auto md:min-h-[22rem] md:w-[55%]" />
       <div className="flex flex-1 flex-col gap-3 p-6 md:p-8">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">{item.field}</p>
         <h3 className="font-heading text-2xl font-semibold leading-snug text-heading">{item.title}</h3>
