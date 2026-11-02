@@ -7,6 +7,7 @@ export const siteSchema = z.object({
   nav: z.array(z.object({ label: z.string(), href: z.string() })),
   social: z.array(socialLink),
   copyrightName: z.string(),
+  tagline: z.string(),
 });
 
 const linkSchema = z.object({ label: z.string(), href: z.string() });

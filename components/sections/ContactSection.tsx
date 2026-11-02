@@ -2,9 +2,10 @@ import { Section } from '@/components/ui/Section';
 import { Reveal } from '@/components/ui/Reveal';
 import { Button } from '@/components/ui/Button';
 import { Icon } from '@/components/ui/Icon';
-import type { ContactContent } from '@/lib/schema';
+import { Copyright, Signature } from '@/components/layout/Signature';
+import type { ContactContent, SiteContent } from '@/lib/schema';
 
-export function ContactSection({ data }: { data: ContactContent }) {
+export function ContactSection({ data, site }: { data: ContactContent; site: SiteContent }) {
   return (
     <Section id="contact">
       <div className="mx-auto max-w-3xl text-center">
@@ -55,6 +56,12 @@ export function ContactSection({ data }: { data: ContactContent }) {
             </div>
           </Reveal>
         )}
+
+        {/* Contact has no footer; the signature and copyright close the page instead. */}
+        <Reveal delay={280} className="mt-16">
+          <Signature site={site} />
+          <Copyright site={site} className="mt-10" />
+        </Reveal>
       </div>
     </Section>
   );
