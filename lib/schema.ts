@@ -48,6 +48,7 @@ const resumeItemSchema = z.object({
   place: z.string().optional(),
   summary: z.string().optional(),
   bullets: z.array(z.string()).optional(),
+  image: z.string().optional(),
 });
 const resumeColumnSchema = z.object({
   groups: z.array(z.object({ title: z.string(), items: z.array(resumeItemSchema) })),
@@ -68,6 +69,7 @@ export const servicesSchema = z.object({
 
 const metricSchema = z.object({ value: z.string(), label: z.string() });
 const caseStepSchema = z.object({ title: z.string(), description: z.string() });
+const certificateSchema = z.object({ image: z.string(), title: z.string(), issuer: z.string(), date: z.string() });
 const portfolioFilterSchema = z.object({
   key: z.string(), label: z.string(), tag: z.string().optional(), image: z.string().optional(),
 });
@@ -91,6 +93,12 @@ const portfolioItemSchema = z.object({
   quote: z.string().optional(),
   steps: z.array(caseStepSchema).min(1),
   resultNotes: z.array(z.string()).optional(),
+  /** Certificates and assessments: proof of the result, shown apart from the activity photos. */
+  credentials: z.object({
+    title: z.string(),
+    intro: z.string().optional(),
+    items: z.array(certificateSchema).min(1),
+  }).optional(),
   gallery: z.array(z.string()).optional(),
 });
 export const portfolioSchema = z.object({
@@ -133,6 +141,7 @@ export type ContactContent = z.infer<typeof contactSchema>;
 export type PortfolioItem = z.infer<typeof portfolioItemSchema>;
 export type Metric = z.infer<typeof metricSchema>;
 export type CaseStep = z.infer<typeof caseStepSchema>;
+export type Certificate = z.infer<typeof certificateSchema>;
 export type PortfolioFilter = z.infer<typeof portfolioFilterSchema>;
 export type SkillGroup = z.infer<typeof skillGroupSchema>;
 export type Service = z.infer<typeof serviceSchema>;

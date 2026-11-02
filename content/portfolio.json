@@ -140,6 +140,30 @@
         "Sample documents shown here use fictional company names."
       ],
       "cover": "/img/work/legal-drafting.jpg",
+      "credentials": {
+        "title": "Related training",
+        "intro": "Contract drafting training behind this work.",
+        "items": [
+          {
+            "image": "/img/certificates/berkas-legal-contract-drafting.jpg",
+            "title": "Contract Drafting",
+            "issuer": "Berkas Legal × Kunci Hukum",
+            "date": "May 2025"
+          },
+          {
+            "image": "/img/certificates/ioda-legal-drafting.jpg",
+            "title": "Cooperation Agreements & Legal Documents",
+            "issuer": "IODA Academy",
+            "date": "December 2024"
+          },
+          {
+            "image": "/img/certificates/legal2course-employment-contract.jpg",
+            "title": "Employment Contract Drafting",
+            "issuer": "Legal2Course #10",
+            "date": "December 2022"
+          }
+        ]
+      },
       "gallery": [
         "/img/categories/drafting.jpg"
       ]
@@ -189,7 +213,25 @@
           "title": "Record and follow up",
           "description": "Noted what happened at each session and the next steps for the case file."
         }
-      ]
+      ],
+      "credentials": {
+        "title": "Recognition",
+        "intro": "HHL Associates certified the Merdeka Belajar Kampus Merdeka (MBKM) internship, 19 February to 14 June 2025, and assessed the work on eight aspects, from legal knowledge and technical competence to communication and teamwork. Scores ranged from 90 to 94, an average of 92 out of 100.",
+        "items": [
+          {
+            "image": "/img/certificates/hhl-internship-certificate.jpg",
+            "title": "Certificate of Appreciation",
+            "issuer": "HHL & Associates Attorney at Law",
+            "date": "June 2025"
+          },
+          {
+            "image": "/img/certificates/hhl-internship-assessment.jpg",
+            "title": "Internship Assessment",
+            "issuer": "HHL & Associates Attorney at Law",
+            "date": "June 2025"
+          }
+        ]
+      }
     },
     {
       "slug": "hr-engagement-kpi",

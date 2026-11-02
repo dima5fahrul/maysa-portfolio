@@ -5,6 +5,7 @@ import { Icon } from '@/components/ui/Icon';
 import { Button } from '@/components/ui/Button';
 import { ProjectCover } from '@/components/portfolio/ProjectCover';
 import { GalleryLightbox } from '@/components/portfolio/GalleryLightbox';
+import { LightboxGroup, LightboxThumb } from '@/components/ui/Lightbox';
 import type { PortfolioItem } from '@/lib/schema';
 
 function CaseSection({ title, children }: { title: string; children: React.ReactNode }) {
@@ -29,6 +30,7 @@ export function PortfolioDetail({ item, next, art }: { item: PortfolioItem; next
     ...(item.team ? [{ label: 'Team', value: item.team }] : []),
   ];
   const gallery = item.gallery ?? [];
+  const credentials = item.credentials;
 
   return (
     <article>
@@ -123,6 +125,31 @@ export function PortfolioDetail({ item, next, art }: { item: PortfolioItem; next
               </ul>
             )}
           </CaseSection>
+
+          {credentials && (
+            <CaseSection title={credentials.title}>
+              {credentials.intro && <p className="mb-6 text-lg leading-relaxed text-body">{credentials.intro}</p>}
+              <LightboxGroup
+                images={credentials.items.map((c) => ({
+                  src: c.image,
+                  alt: `${c.title}, ${c.issuer}`,
+                  caption: `${c.title} · ${c.issuer} · ${c.date}`,
+                }))}
+              >
+                <ul className={`grid gap-6 ${credentials.items.length % 3 === 0 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'}`}>
+                  {credentials.items.map((c, i) => (
+                    <li key={c.image}>
+                      <LightboxThumb index={i} className="rounded-lg bg-white shadow-sm ring-1 ring-black/5" imgClassName="aspect-[7/5]" />
+                      <h3 className="mt-3 font-heading text-base font-semibold leading-snug text-heading">{c.title}</h3>
+                      <p className="mt-1 text-sm text-muted">
+                        {c.issuer} · {c.date}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </LightboxGroup>
+            </CaseSection>
+          )}
 
           {gallery.length > 0 && (
             <CaseSection title="Documentation">

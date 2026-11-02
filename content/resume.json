@@ -52,7 +52,7 @@
           ]
         },
         {
-          "title": "Certifications",
+          "title": "Certifications & Training",
           "items": [
             {
               "heading": "Customer Relationship Management",
@@ -61,9 +61,25 @@
               "summary": "Junior Service Quality Officer (JSQO), Registration No. JSQO.2090.0001163."
             },
             {
+              "heading": "Contract Drafting",
+              "period": "16 May 2025",
+              "place": "Berkas Legal × Kunci Hukum",
+              "summary": "Exclusive training on contract drafting.",
+              "image": "/img/certificates/berkas-legal-contract-drafting.jpg"
+            },
+            {
               "heading": "Legal Drafting",
-              "period": "24 December 2024",
-              "place": "IODA Academy"
+              "period": "23–24 December 2024",
+              "place": "IODA Academy",
+              "summary": "Cooperation agreements and legal documents (Batch 3): two sessions of practical exercises, case studies and group discussion.",
+              "image": "/img/certificates/ioda-legal-drafting.jpg"
+            },
+            {
+              "heading": "Employment Contract Drafting",
+              "period": "13 December 2022",
+              "place": "Legal2Course #10",
+              "summary": "Online training on drafting employment contracts, held with Kantor Hukum Shankara and Disnakertrans DIY.",
+              "image": "/img/certificates/legal2course-employment-contract.jpg"
             },
             {
               "heading": "TOEFL ITP",
