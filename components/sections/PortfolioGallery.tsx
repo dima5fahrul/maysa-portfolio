@@ -35,7 +35,27 @@ export function PortfolioGallery({ data }: { data: PortfolioContent }) {
     <Section id="portfolio">
       <SectionTitle title={data.title} subtitle={data.subtitle} />
 
-      <ul className="mb-12 grid grid-cols-3 gap-x-3 gap-y-5 sm:gap-x-4 lg:grid-cols-6">
+      {/* Phones get plain text chips; the image tiles take over from md up. */}
+      <ul className="mb-10 flex flex-wrap justify-center gap-3 md:hidden">
+        {data.filters.map((f) => (
+          <li key={f.key}>
+            <button
+              type="button"
+              aria-pressed={active === f.key}
+              onClick={() => choose(f.key)}
+              className={`rounded-full border px-5 py-2 text-sm font-medium transition-colors ${
+                active === f.key
+                  ? 'border-accent bg-accent text-white'
+                  : 'border-accent/30 bg-white text-heading hover:border-accent hover:text-accent'
+              }`}
+            >
+              {f.label}
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      <ul className="mb-12 hidden grid-cols-3 gap-x-4 gap-y-5 md:grid lg:grid-cols-6">
         {data.filters.map((f) => {
           const on = active === f.key;
           return (
