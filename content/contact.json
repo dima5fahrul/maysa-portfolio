@@ -1,9 +1,14 @@
 {
   "title": "Contact",
-  "subtitle": "Open to Legal and HR roles. The quickest way to reach me is WhatsApp or email.",
-  "email": "samaysa999@gmail.com",
-  "info": [
+  "heading": "Open to Legal & HR roles",
+  "subtitle": "Based in Surabaya, Indonesia. The quickest way to reach me is WhatsApp or email.",
+  "direct": [
     { "icon": "whatsapp", "title": "WhatsApp", "text": "+62 877-7409-6381", "href": "https://wa.me/6287774096381", "action": "Chat on WhatsApp" },
     { "icon": "envelope", "title": "Email", "text": "samaysa999@gmail.com", "href": "mailto:samaysa999@gmail.com", "action": "Send an email" }
+  ],
+  "profilesTitle": "Find me on",
+  "profiles": [
+    { "icon": "linkedin", "title": "LinkedIn", "text": "in/maisyaroh-umdzatul", "href": "https://www.linkedin.com/in/maisyaroh-umdzatul/" },
+    { "icon": "instagram", "title": "Instagram", "text": "@mysaaptm", "href": "https://www.instagram.com/mysaaptm" }
   ]
 }

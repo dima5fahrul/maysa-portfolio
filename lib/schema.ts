@@ -121,14 +121,17 @@ export const portfolioSchema = z.object({
   }
 });
 
+const contactLinkSchema = z.object({
+  icon: z.string(), title: z.string(), text: z.string(), href: z.string(), action: z.string().optional(),
+});
 export const contactSchema = z.object({
   title: z.string(),
+  heading: z.string(),
   subtitle: z.string(),
-  email: z.string(),
-  info: z.array(z.object({
-    icon: z.string(), title: z.string(), text: z.string(),
-    href: z.string().optional(), action: z.string().optional(),
-  })),
+  /** The quickest channels, shown as the main buttons. */
+  direct: z.array(contactLinkSchema).min(1),
+  profilesTitle: z.string(),
+  profiles: z.array(contactLinkSchema),
 });
 
 export type SiteContent = z.infer<typeof siteSchema>;
